@@ -1,4 +1,6 @@
 import React from 'react';
+import './global.css';
+import SideBar from './components/page';
 
 
 export default function RootLayout({
@@ -8,7 +10,12 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body>
+          <div className='relative flex h-full min-h-screen w-full'>
+            <SideBar />
+            {children}
+          </div>
+        </body>
       </html>
     )
   }

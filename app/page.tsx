@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Page() {
-    return <h1>Hello, chirag!</h1>
+    return (
+    <h1 className="text-3xl font-bold underline">
+        Hello, chirag!
+    </h1>
+    )
 }
