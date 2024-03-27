@@ -1,2 +1,3 @@
-# profile_vs_code
-Portfolio website to maintain profile, resume, projects and blogs.
+# Code for profile
+
+Design inspired from: [Brian Lovin](https://brianlovin.com/)
