@@ -1,26 +1,29 @@
-"use client"
+'use client'
 import * as React from 'react'
 
 import { GlobalNavigationContext } from './GlobalNavigationContext'
 
+export function ContextProviders({
+    children,
+}: {
+    children: React.ReactNode
+}): React.ReactElement {
+    const initialState = {
+        isOpen: false,
+        setIsOpen,
+    }
 
-export function ContextProviders({ children }: { children: React.ReactNode }): React.ReactElement {
-  const initialState = {
-    isOpen: false,
-    setIsOpen,
-  }
+    const [state, setState] = React.useState(initialState)
 
-  const [state, setState] = React.useState(initialState)
+    function setIsOpen(isOpen: boolean): void {
+        setState({ ...state, isOpen });
+    }
 
-  function setIsOpen(isOpen: boolean) {
-    return setState({ ...state, isOpen })
-  }
-
-  return (
-    <>
-      <GlobalNavigationContext.Provider value={state}>
-        {children}
-      </GlobalNavigationContext.Provider>
-    </>
-  )
+    return (
+        <>
+            <GlobalNavigationContext.Provider value={state}>
+                {children}
+            </GlobalNavigationContext.Provider>
+        </>
+    )
 }
