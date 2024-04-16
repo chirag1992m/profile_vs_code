@@ -16,7 +16,7 @@ export function ContextProviders({
     const [state, setState] = React.useState(initialState)
 
     function setIsOpen(isOpen: boolean): void {
-        setState({ ...state, isOpen });
+        setState({ ...state, isOpen })
     }
 
     return (

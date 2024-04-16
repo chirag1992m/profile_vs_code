@@ -12,7 +12,9 @@ export function SidebarOverlay(): React.ReactElement {
                     ? 'pointer-events-auto opacity-100'
                     : 'pointer-events-none opacity-0'
             }`}
-            onClick={() => { setIsOpen(false); }}
+            onClick={() => {
+                setIsOpen(false)
+            }}
         >
             This is the overlay
         </div>

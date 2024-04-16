@@ -1,7 +1,5 @@
 import * as React from 'react'
 
-import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
-
 export interface SideBarNavigationLinkProps {
     href: string
     label: string
@@ -23,5 +21,5 @@ export function SideBarNavigationLink({
 }: SideBarNavigationLinkProps): React.ReactElement {
     // const { setIsOpen } = React.useContext(GlobalNavigationContext)
 
-    return (<li>This is a list item</li>)
+    return <li>This is a list item</li>
 }
