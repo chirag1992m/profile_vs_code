@@ -1,0 +1,28 @@
+import * as React from 'react'
+import Link from 'next/link'
+
+import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
+
+
+export interface SideBarNavigationLinkProps {
+  href: string,
+  label: string,
+  icon: React.ReactSVG,
+  trailingAccessory: React.ReactSVG,
+  // TODO: What is this used for? 
+  // trailingAction: Action,
+  isActive: boolean,
+  isExternal: boolean,
+}
+
+
+export function SideBarNavigationLink({
+  href, label, icon, trailingAccessory, isActive, isExternal}: SideBarNavigationLinkProps) {
+    const { setIsOpen } = React.useContext(GlobalNavigationContext)
+
+    return (
+      <li>
+        This is a list item
+      </li>
+    )
+}

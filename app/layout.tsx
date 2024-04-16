@@ -1,14 +1,19 @@
-import React from 'react'
-import './global.css'
-import SideBar from './components/page'
+import './src/styles/global.css'
 
-export default function RootLayout ({ children }: { children: React.ReactNode }): React.ReactNode {
+import React from 'react'
+
+import { ContextProviders } from './src/contexts'
+import SideBar from './src/components/SideBar'
+
+export default function RootLayout ({ children }: { children: React.ReactNode }): React.ReactElement {
   return (
     <html lang='en'>
       <body>
         <div className='relative flex h-full min-h-screen w-full'>
-          <SideBar />
-          <div className='flex flex-1'>{children}</div>
+          <ContextProviders>
+            <SideBar />
+            <div className='flex flex-1'>{children}</div>
+          </ContextProviders>
         </div>
       </body>
     </html>
