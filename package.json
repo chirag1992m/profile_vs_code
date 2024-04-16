@@ -4,8 +4,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint --fix",
-        "format:all": "prettier --write .",
-        "format:staged": "prettier --write $(git diff --staged --name-only --diff-filter d | xargs)"
+        "format:all": "prettier --write ."
     },
     "dependencies": {
         "next": "^14.1.4",
