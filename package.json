@@ -39,7 +39,6 @@
         "singleQuote": true,
         "plugins": [
             "prettier-plugin-organize-imports"
-        ],
-        "tailwindConfig": "./tailwind.config.js"
+        ]
     }
 }
