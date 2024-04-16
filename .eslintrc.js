@@ -8,6 +8,7 @@ module.exports = {
         "eslint-config-love",
         "plugin:react/recommended",
         "next/core-web-vitals",
+        "prettier",
     ],
     "overrides": [
         {
@@ -27,7 +28,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
     ],
     "rules": {
         "@typescript-eslint/strict-boolean-expressions": "warn"

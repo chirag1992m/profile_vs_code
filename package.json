@@ -3,7 +3,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --fix",
+    "format:all": "prettier --write .",
+    "format:staged": "prettier --write $(git diff --staged --name-only --diff-filter d | xargs)"
   },
   "dependencies": {
     "next": "^14.1.4",
@@ -15,9 +17,11 @@
     "@types/react": "^18.2.72",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
     "eslint-config-love": "^43.1.0",
-    "eslint-config-next": "^14.1.4",
+    "eslint-config-next": "^14.2.1",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
@@ -25,8 +29,8 @@
     "husky": "^9.0.11",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.13",
-    "tailwindcss": "^3.4.2",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3"
   },
   "prettier": {
@@ -35,8 +39,8 @@
     "semi": false,
     "singleQuote": true,
     "plugins": [
-      "prettier-plugin-taildwindcss"
+      "prettier-plugin-organize-imports"
     ],
-    "tailwindConfig": "./tailwinnd.config.js"
+    "tailwindConfig": "./tailwind.config.js"
   }
 }
