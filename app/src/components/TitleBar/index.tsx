@@ -4,7 +4,7 @@ import { TiThMenu } from 'react-icons/ti'
 
 import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
 
-export interface SideBarTitleProps {
+export interface TitleBarProps {
     title: string
     globalMenu?: boolean
     // backButton?: boolean
@@ -17,7 +17,7 @@ export interface SideBarTitleProps {
     // trailingAccessory?: React.ReactNode
 }
 
-export function SideBarTitle({
+export function TitleBar({
     title,
     globalMenu = true,
     // backButton = false,
@@ -28,7 +28,7 @@ export function SideBarTitle({
     children = null,
     // leadingAccessory = null,
     // trailingAccessory = null
-}: SideBarTitleProps): React.ReactElement {
+}: TitleBarProps): React.ReactElement {
     const { isOpen, setIsOpen } = React.useContext(GlobalNavigationContext)
     const currentScrollOffset: number = 0
     // const offset = 200
