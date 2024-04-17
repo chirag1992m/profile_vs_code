@@ -4,7 +4,8 @@ export interface SideBarTitleProps {
     title: string
 }
 
-
-export function SideBarTitle(titleProps: SideBarTitleProps): React.ReactElement {
+export function SideBarTitle(
+    titleProps: SideBarTitleProps
+): React.ReactElement {
     return <h1>{titleProps.title}</h1>
 }

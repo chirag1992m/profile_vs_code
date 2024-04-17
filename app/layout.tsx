@@ -18,11 +18,12 @@ export default function RootLayout({
                 <div className="relative flex h-full min-h-screen w-full">
                     <ContextProviders>
                         <SideBar
-                            titleProps={{title: 'Digital Madness | Chirag Maheshwari Space'}}
+                            titleProps={{
+                                title: 'Digital Madness | Chirag Maheshwari Space',
+                            }}
                             navSections={sections}
-                            footerProps={{label: 'Made by @chirag1992m'}}
-                        >
-                        </SideBar>
+                            footerProps={{ label: 'Made by @chirag1992m' }}
+                        ></SideBar>
                         <div className="flex flex-1">{children}</div>
                     </ContextProviders>
                 </div>

@@ -4,8 +4,9 @@ export interface SideBarFooterProps {
     label: string
 }
 
-
-export function SideBarFooter({label}: SideBarFooterProps): React.ReactElement {
+export function SideBarFooter({
+    label,
+}: SideBarFooterProps): React.ReactElement {
     return (
         <div
             className="sticky bottom-0 z-10 flex items-center justify-between p-2 space-x-3 bg-white
