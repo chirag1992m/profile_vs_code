@@ -19,7 +19,8 @@ export default function RootLayout({
                     <ContextProviders>
                         <SideBar
                             titleProps={{
-                                title: 'Digital Madness | Chirag Maheshwari Space',
+                                title: 'Digital Madness',
+                                globalMenu: true,
                             }}
                             navSections={sections}
                             footerProps={{ label: 'Made by @chirag1992m' }}
