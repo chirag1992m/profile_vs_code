@@ -29,7 +29,9 @@ export function SideBarNavigationLink({
     return (
         <li
             className="flex items-stretch space-x-1"
-            onClick={() => { setIsOpen(false); }}
+            onClick={() => {
+                setIsOpen(false)
+            }}
         >
             <Link
                 href={href}
