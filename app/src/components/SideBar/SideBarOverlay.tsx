@@ -16,7 +16,7 @@ export default function SidebarOverlay(): React.ReactElement {
                 setIsOpen(false)
             }}
         >
-            This is the overlay
+            {/* This is the overlay */}
         </div>
     )
 }
