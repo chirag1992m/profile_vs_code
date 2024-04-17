@@ -2,6 +2,7 @@ import * as React from 'react'
 import { type IconType } from 'react-icons'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
 
@@ -25,6 +26,11 @@ export function SideBarNavigationLink({
     isExternal,
 }: SideBarNavigationLinkProps): React.ReactElement {
     const { setIsOpen } = React.useContext(GlobalNavigationContext)
+    const router: string = usePathname()
+
+    // console.log(router)
+    // TODO: Make this better
+    isActive = router === href
 
     return (
         <li

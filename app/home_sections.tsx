@@ -1,8 +1,7 @@
 'use client'
 import { BsLinkedin } from 'react-icons/bs'
-import { FaGithub } from 'react-icons/fa'
+import { FaFileMedicalAlt, FaGithub } from 'react-icons/fa'
 import { FaGoogleScholar, FaPenNib } from 'react-icons/fa6'
-import { FcHome } from 'react-icons/fc'
 import { GiBookCover } from 'react-icons/gi'
 import { RiAccountCircleFill } from 'react-icons/ri'
 import { TbExternalLink } from 'react-icons/tb'
@@ -41,7 +40,7 @@ export const projectsSection: SideBarNavigationLinkProps[] = [
     {
         href: 'http://nestaura.ai',
         label: 'NestAura',
-        icon: FcHome,
+        icon: FaFileMedicalAlt,
         trailingIcon: TbExternalLink,
         isActive: false,
         isExternal: true,
@@ -52,7 +51,7 @@ export const projectsSection: SideBarNavigationLinkProps[] = [
         icon: GiBookCover,
         trailingIcon: null,
         isActive: false,
-        isExternal: true,
+        isExternal: false,
     },
 ]
 
