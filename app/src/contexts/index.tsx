@@ -1,8 +1,8 @@
 'use client'
 import * as React from 'react'
 
-import { GlobalNavigationContext } from './GlobalNavigationContext'
 import { IconContext } from 'react-icons'
+import { GlobalNavigationContext } from './GlobalNavigationContext'
 
 export function ContextProviders({
     children,
@@ -22,7 +22,7 @@ export function ContextProviders({
 
     return (
         <>
-            <IconContext.Provider value={{size: "16"}}>
+            <IconContext.Provider value={{ size: '16' }}>
                 <GlobalNavigationContext.Provider value={state}>
                     {children}
                 </GlobalNavigationContext.Provider>

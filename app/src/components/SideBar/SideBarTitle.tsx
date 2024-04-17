@@ -19,15 +19,15 @@ export interface SideBarTitleProps {
 
 export function SideBarTitle({
     title,
-    globalMenu,
-    // backButton,
-    // backButtonHref,
-    // magicTitle,
-    // titleRef,
-    // scrollContainerRef,
-    children,
-    // leadingAccessory,
-    // trailingAccessory
+    globalMenu = true,
+    // backButton = false,
+    // backButtonHref = "",
+    // magicTitle = false,
+    // titleRef = null,
+    // scrollContainerRef = null,
+    children = null,
+    // leadingAccessory = null,
+    // trailingAccessory = null
 }: SideBarTitleProps): React.ReactElement {
     const { isOpen, setIsOpen } = React.useContext(GlobalNavigationContext)
     const currentScrollOffset: number = 0
