@@ -2,6 +2,7 @@
 import * as React from 'react'
 
 import { GlobalNavigationContext } from './GlobalNavigationContext'
+import { IconContext } from 'react-icons'
 
 export function ContextProviders({
     children,
@@ -21,9 +22,11 @@ export function ContextProviders({
 
     return (
         <>
-            <GlobalNavigationContext.Provider value={state}>
-                {children}
-            </GlobalNavigationContext.Provider>
+            <IconContext.Provider value={{size: "16"}}>
+                <GlobalNavigationContext.Provider value={state}>
+                    {children}
+                </GlobalNavigationContext.Provider>
+            </IconContext.Provider>
         </>
     )
 }
