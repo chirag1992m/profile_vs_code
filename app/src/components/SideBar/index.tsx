@@ -1,14 +1,14 @@
 'use client'
 import React from 'react'
 
-import SideBarFooter from './SideBarFooter'
-import SideBarNavigation from './SideBarNavigation'
-import SideBarTitle from './SideBarTitle'
-// import { SidebarOverlay } from './SideBarOverlay';
+import {SideBarFooterProps, SideBarFooter} from './SideBarFooter'
+import { SideBarNavigationSectionProps, SideBarNavigation } from './SideBarNavigation'
+import {SideBarTitleProps, SideBarTitle} from './SideBarTitle'
+import SidebarOverlay from './SideBarOverlay';
 
 import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
 
-function SideBar(): React.ReactElement {
+function SideBar({titleProps, navSections, footerProps}: {titleProps: SideBarTitleProps, navSections: SideBarNavigationSectionProps[], footerProps: SideBarFooterProps}): React.ReactElement {
     const { isOpen } = React.useContext(GlobalNavigationContext)
     const scrollContainerRef = React.useRef(null)
 
@@ -22,11 +22,20 @@ function SideBar(): React.ReactElement {
                         : 'absolute -translate-x-full'
                 } 3xl:w-80 z-30 flex h-full max-h-screen min-h-screen w-3/4 flex-none transform flex-col overflow-y-auto border-r border-gray-150 bg-white pb-10 transition duration-200 ease-in-out dark:border-gray-800 dark:bg-gray-900 sm:w-1/2 sm:pb-0 md:w-1/3 lg:relative lg:z-auto lg:w-56 lg:translate-x-0 lg:bg-gray-50 lg:dark:bg-gray-900 2xl:w-72`}
             >
-                <SideBarTitle></SideBarTitle>
-                <SideBarNavigation></SideBarNavigation>
-                <SideBarFooter></SideBarFooter>
+                <SideBarTitle
+                    title={titleProps.title}
+                >
+                </SideBarTitle>
+                <SideBarNavigation
+                    navigationSections={navSections}
+                >
+                </SideBarNavigation>
+                <SideBarFooter
+                    label={footerProps.label}
+                >
+                </SideBarFooter>
             </nav>
-            {/* <SidebarOverlay></SidebarOverlay> */}
+            <SidebarOverlay></SidebarOverlay>
         </>
     )
 }

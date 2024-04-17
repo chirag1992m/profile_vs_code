@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
 
-export function SidebarOverlay(): React.ReactElement {
+export default function SidebarOverlay(): React.ReactElement {
     const { isOpen, setIsOpen } = React.useContext(GlobalNavigationContext)
 
     return (

@@ -1,7 +1,10 @@
 import React from 'react'
 
-function SideBarTitle(): React.ReactElement {
-    return <h1>digital Madness | Chirag Maheshwaris workspace</h1>
+export interface SideBarTitleProps {
+    title: string
 }
 
-export default SideBarTitle
+
+export function SideBarTitle(titleProps: SideBarTitleProps): React.ReactElement {
+    return <h1>{titleProps.title}</h1>
+}
