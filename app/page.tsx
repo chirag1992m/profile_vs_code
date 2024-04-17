@@ -1,5 +1,11 @@
 import React from 'react'
 
 export default function Page(): React.ReactElement {
-    return <h1 className="text-3xl font-bold underline">Hello, chirag!</h1>
+    return (
+        <div className="flex w-full">
+            <div className="flex h-full w-full items-center justify-center">
+                Hi I&apos;m Chirag Maheshwari
+            </div>
+        </div>
+    )
 }
