@@ -12,7 +12,7 @@ import { type SideBarNavigationLinkProps } from './src/components/SideBar/SideBa
 const homeSection: SideBarNavigationLinkProps[] = [
     {
         href: '/',
-        label: 'Home',
+        label: 'About Me',
         icon: RiAccountCircleFill,
         trailingIcon: null,
         isActive: true,
