@@ -1,11 +1,21 @@
 import './src/styles/global.css'
 
+import type { Metadata } from 'next'
 import React from 'react'
 
 import SideBar from './src/components/SideBar'
 import { ContextProviders } from './src/contexts'
 
 import sections from './home_sections'
+
+export const metadata: Metadata = {
+    title: 'Digital Madness',
+    description: "Chirag Maheshwari's Webspace",
+    authors: { name: 'Chirag Maheshwari' },
+    keywords: ['Digital Webspace', 'Chirag Maheshwari', ''],
+    creator: 'Chirag Maheshwari',
+    publisher: 'Chirag Maheshwari',
+}
 
 export default function RootLayout({
     children,
