@@ -6,8 +6,8 @@ import { GiBookCover } from 'react-icons/gi'
 import { RiAccountCircleFill } from 'react-icons/ri'
 import { TbExternalLink } from 'react-icons/tb'
 
-import { type SideBarNavigationSectionProps } from './src/components/SideBar/SideBarNavigation'
-import { type SideBarNavigationLinkProps } from './src/components/SideBar/SideBarNavigationLink'
+import { type SideBarNavigationSectionProps } from '../src/components/SideBar/SideBarNavigation'
+import { type SideBarNavigationLinkProps } from '../src/components/SideBar/SideBarNavigationLink'
 
 const homeSection: SideBarNavigationLinkProps[] = [
     {
