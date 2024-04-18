@@ -10,6 +10,8 @@ import { education, workHistory } from './information'
 import { Detail } from '../src/components/ListDetail/Detail'
 import { TitleBar } from '../src/components/TitleBar'
 
+import seattlePic from '../../public/static/seattle.webp'
+
 const SectionContainer: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
     return (
         <div
@@ -63,7 +65,7 @@ const TableRow: React.FC<TableRowProps> = ({ href, title, subtitle, date }) => {
     )
 }
 
-export function AboutMe(): Detail.Container {
+export function AboutMe(): React.ReactElement {
     const scrollContainerRef = React.useRef(null)
     const titleRef = React.useRef(null)
 
@@ -150,12 +152,11 @@ export function AboutMe(): Detail.Container {
                         <SectionContent>
                             <Image
                                 priority
-                                src="/static/seattle.webp"
+                                src={seattlePic}
                                 width={800}
-                                height={400}
                                 className="rounded-2xl"
                                 quality={100}
-                                alt="Map of San Francisco with blue location dot in the middle"
+                                alt="Illustration of Seattle with comical regional stereotypes"
                             />
                             <p className="flex items-center justify-end pt-2 space-x-2 text-sm text-quaternary md:text-right">
                                 <FaMapMarkerAlt size={12} />
