@@ -6,7 +6,7 @@ import React from 'react'
 import SideBar from './src/components/SideBar'
 import { ContextProviders } from './src/contexts'
 
-import sections from './home_sections'
+import sections from './global_navigation'
 
 export const metadata: Metadata = {
     title: 'Digital Madness',
@@ -33,7 +33,7 @@ export default function RootLayout({
                                 globalMenu: true,
                             }}
                             navSections={sections}
-                            footerProps={{ label: 'Made by @chirag1992m' }}
+                            footerProps={{ label: 'Chirag Maheshwari' }}
                         ></SideBar>
                         <div className="flex flex-1">{children}</div>
                     </ContextProviders>
