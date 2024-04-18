@@ -1,11 +1,13 @@
 import React from 'react'
+import { AboutMe } from './about_me/amoutMe'
+import { ListDetailView } from './src/components/ListDetail/ListDetailView'
 
 export default function Page(): React.ReactElement {
     return (
-        <div className="flex w-full">
-            <div className="flex h-full w-full items-center justify-center">
-                Hi I&apos;m Chirag Maheshwari
-            </div>
-        </div>
+        <ListDetailView
+            list={null}
+            detail={<AboutMe></AboutMe>}
+            hasDetail
+        ></ListDetailView>
     )
 }
