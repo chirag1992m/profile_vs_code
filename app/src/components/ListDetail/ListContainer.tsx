@@ -1,6 +1,10 @@
 import * as React from 'react'
 
-export function ListContainer({ children, onRef, ...rest }): React.ReactElement {
+export function ListContainer({
+    children,
+    onRef,
+    ...rest
+}): React.ReactElement {
     const scrollContainerRef = React.useRef(null)
 
     React.useEffect(() => {
