@@ -5,6 +5,7 @@ import { FaGoogleScholar, FaPenNib } from 'react-icons/fa6'
 import { GiBookCover } from 'react-icons/gi'
 import { RiAccountCircleFill } from 'react-icons/ri'
 import { TbExternalLink } from 'react-icons/tb'
+import { FaBoxArchive } from "react-icons/fa6";
 
 import { type SideBarNavigationSectionProps } from './src/components/SideBar/SideBarNavigation'
 import { type SideBarNavigationLinkProps } from './src/components/SideBar/SideBarNavigationLink'
@@ -82,6 +83,19 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
     },
 ]
 
+
+export const archiveSection: SideBarNavigationLinkProps[] = [
+    {
+        href: 'https://digital-madness.in/old_website',
+        label: 'Old Profile',
+        icon: FaBoxArchive,
+        trailingIcon: TbExternalLink,
+        isActive: false,
+        isExternal: true,
+    },
+]
+
+
 const sections: SideBarNavigationSectionProps[] = [
     {
         label: '',
@@ -95,6 +109,10 @@ const sections: SideBarNavigationSectionProps[] = [
         label: 'Online',
         links: onlineSection,
     },
+    {
+        label: 'Archive',
+        links: archiveSection
+    }
 ]
 
 export default sections
