@@ -1,11 +1,10 @@
 'use client'
 import { BsLinkedin } from 'react-icons/bs'
 import { FaFileMedicalAlt, FaGithub } from 'react-icons/fa'
-import { FaGoogleScholar, FaPenNib } from 'react-icons/fa6'
+import { FaBoxArchive, FaGoogleScholar, FaPenNib } from 'react-icons/fa6'
 import { GiBookCover } from 'react-icons/gi'
 import { RiAccountCircleFill } from 'react-icons/ri'
 import { TbExternalLink } from 'react-icons/tb'
-import { FaBoxArchive } from "react-icons/fa6";
 
 import { type SideBarNavigationSectionProps } from './src/components/SideBar/SideBarNavigation'
 import { type SideBarNavigationLinkProps } from './src/components/SideBar/SideBarNavigationLink'
@@ -83,7 +82,6 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
     },
 ]
 
-
 export const archiveSection: SideBarNavigationLinkProps[] = [
     {
         href: 'https://digital-madness.in/old_website',
@@ -94,7 +92,6 @@ export const archiveSection: SideBarNavigationLinkProps[] = [
         isExternal: true,
     },
 ]
-
 
 const sections: SideBarNavigationSectionProps[] = [
     {
@@ -111,8 +108,8 @@ const sections: SideBarNavigationSectionProps[] = [
     },
     {
         label: 'Archive',
-        links: archiveSection
-    }
+        links: archiveSection,
+    },
 ]
 
 export default sections
