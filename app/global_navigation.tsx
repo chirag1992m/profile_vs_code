@@ -82,6 +82,7 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
     },
 ]
 
+
 export const archiveSection: SideBarNavigationLinkProps[] = [
     {
         href: 'https://digital-madness.in/old_website',
