@@ -1,2 +1,2 @@
 npm run format:all
-npm run lint
+npm run lint --fix

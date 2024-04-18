@@ -21,7 +21,7 @@ export function ListItem({
     active,
     leadingAccessory,
     onClick,
-}: ListYtemProps) {
+}: ListYtemProps): React.ReactElement {
     return (
         <Link
             href={href}

@@ -28,5 +28,8 @@ module.exports = {
     plugins: ['react'],
     rules: {
         '@typescript-eslint/strict-boolean-expressions': 'warn',
+        "react/display-name": "off",
+        '@typescript-eslint/no-unsafe-argument': 'warn',
+        '@typescript-eslint/explicit-function-return-type': 'warn'
     },
 }

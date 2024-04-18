@@ -2,7 +2,7 @@ import ReactVisibilitySensor from 'react-visibility-sensor'
 
 import LoadingIcons from 'react-loading-icons'
 
-export function ListLoadMore({ setIsVisible }) {
+export function ListLoadMore({ setIsVisible }): React.ReactElement {
     return (
         <ReactVisibilitySensor
             partialVisibility

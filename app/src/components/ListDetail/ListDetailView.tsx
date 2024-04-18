@@ -8,7 +8,7 @@ export function ListDetailView({
     list,
     detail,
     hasDetail = false,
-}: ListDetailViewProps) {
+}: ListDetailViewProps): React.ReactElement {
     return (
         <div className="flex w-full">
             {list && (

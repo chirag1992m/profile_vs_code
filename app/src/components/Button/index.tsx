@@ -22,7 +22,7 @@ function BaseButton({
 }: {
     href: string | undefined
     forwardedRef: React.ForwardedRef<HTMLAnchorElement> | null
-}) {
+}): React.ReactElement | undefined {
     if (href && href.startsWith('/')) {
         return <Link href={href} {...rest} />
     }
@@ -37,14 +37,14 @@ function BaseLink({
     ...rest
 }: {
     forwardedRef: React.ForwardedRef<HTMLButtonElement> | null
-}) {
+}): React.ReactElement<HTMLButtonElement> {
     return <button ref={forwardedRef} {...rest} />
 }
 
 const baseClasses =
     'flex space-x-2 flex-none items-center justify-center cursor-pointer leading-none transition-all font-semibold'
 
-function getSize(size = '') {
+function getSize(size = ''): string {
     switch (size) {
         case 'large': {
             return 'px-4 py-3 text-sm'
@@ -61,11 +61,11 @@ function getSize(size = '') {
     }
 }
 
-function getOpacity(disabled = false) {
+function getOpacity(disabled = false): string {
     return disabled ? 'opacity-50 cursor-not-allowed' : 'opacity-100'
 }
 
-function getRadius(size = '') {
+function getRadius(size = ''): string {
     switch (size) {
         case 'large': {
             return 'rounded-lg'
@@ -85,6 +85,7 @@ const composer = {
     getRadius,
 }
 
+/* eslint-disable react/display-name */
 export const Button = React.forwardRef(
     (props: ButtonProps, ref: React.ForwardedRef<any>) => {
         const classes = `text-gray-700 hover:text-gray-1000 shadow-xs bg-white border border-gray-400 border-opacity-30 dark:border-gray-700 dark:hover:border-gray-600 dark:bg-white dark:bg-opacity-10 dark:text-gray-200 dark:hover:text-white hover:border-opacity-50 hover:shadow-sm`

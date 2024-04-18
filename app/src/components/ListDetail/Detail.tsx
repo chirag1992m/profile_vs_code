@@ -5,7 +5,7 @@ import LoadingIcons from 'react-loading-icons'
 import Button from '../Button'
 import { TitleBar } from '../TitleBar'
 
-function ContentContainer(props) {
+const ContentContainer: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
     return (
         <div
             className="mx-auto w-full max-w-3xl px-4 py-12 pb-10 md:px-8"
@@ -31,7 +31,7 @@ const Container = React.forwardRef<HTMLDivElement, DetailContainerProps>(
     }
 )
 
-function Header(props) {
+const Header: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
     return <div className="space-y-3" {...props} />
 }
 
@@ -49,7 +49,7 @@ const Title = React.forwardRef<HTMLHeadingElement, TitleProps>((props, ref) => {
     )
 })
 
-function Loading() {
+const Loading: React.FC = () => {
     return (
         <Container>
             <div className="flex flex-1 flex-col items-center justify-center">
@@ -59,7 +59,7 @@ function Loading() {
     )
 }
 
-function Null() {
+const Null: React.FC = () => {
     return (
         <Container>
             <TitleBar title="Not found" />
