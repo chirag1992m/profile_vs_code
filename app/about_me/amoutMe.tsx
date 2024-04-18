@@ -63,7 +63,6 @@ const TableRow: React.FC<TableRowProps> = ({ href, title, subtitle, date }) => {
     )
 }
 
-
 export function AboutMe() {
     const scrollContainerRef = React.useRef(null)
     const titleRef = React.useRef(null)
