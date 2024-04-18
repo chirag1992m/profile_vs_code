@@ -10,7 +10,7 @@ import { education, workHistory } from './information'
 import { Detail } from '../src/components/ListDetail/Detail'
 import { TitleBar } from '../src/components/TitleBar'
 
-import seattlePic from "../../public/static/seattle.webp"
+import seattlePic from '../../public/static/seattle.webp'
 
 const SectionContainer: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
     return (
