@@ -18,7 +18,7 @@ function SideBar({
 }: {
     titleProps: TitleBarProps
     navSections: SideBarNavigationSectionProps[]
-    footerProps: SideBarFooterProps
+    footerProps: SideBarFooterProps | null
 }): React.ReactElement {
     const { isOpen } = React.useContext(GlobalNavigationContext)
     const scrollContainerRef = React.useRef(null)
@@ -40,7 +40,7 @@ function SideBar({
                 <SideBarNavigation
                     navigationSections={navSections}
                 ></SideBarNavigation>
-                <SideBarFooter label={footerProps.label}></SideBarFooter>
+                {footerProps && <SideBarFooter label={footerProps.label}></SideBarFooter>}
             </nav>
             <SidebarOverlay></SidebarOverlay>
         </>
