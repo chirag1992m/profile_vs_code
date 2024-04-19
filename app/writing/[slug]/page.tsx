@@ -4,7 +4,7 @@ import Markdown from 'markdown-to-jsx'
 
 import { ListDetailView } from '../../src/components/ListDetail/ListDetailView'
 import { WritingList } from '../../src/components/WritingListDetail/WritingList'
-import { getPostContent, getPostMedata } from '../posts'
+import { getCategorizedPosts, getPostContent, getPostMedata } from '../posts'
 
 export function generateStaticParams() {
     const posts = getPostMedata()
@@ -23,7 +23,11 @@ export default function Page({
 }): React.ReactElement {
     return (
         <ListDetailView
-            list={<WritingList posts={getPostMedata()}></WritingList>}
+            list={
+                <WritingList
+                    categorizedPosts={getCategorizedPosts()}
+                ></WritingList>
+            }
             hasDetail={false}
             detail={<Markdown>{getPostContent(params.slug)}</Markdown>}
         />

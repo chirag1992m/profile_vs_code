@@ -31,7 +31,21 @@ export const getPostMedata = (): postMetadata[] => {
             cover_image: matterResult.data.cover_image,
         }
     })
+
     return postsMetadata
+}
+
+export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
+    const postsMetadata = getPostMedata()
+    const categories: Record<string, postMetadata[]> = postsMetadata.reduce(
+        (x, y) => {
+            ;(x[y.category] = x[y.category] || []).push(y)
+            return x
+        },
+        {}
+    )
+
+    return categories
 }
 
 export const getPostContent = (slug: string): string => {

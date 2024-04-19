@@ -1,7 +1,7 @@
 ---
 slug: 'xgboost'
 title: 'XGBoost'
-substitle: 'XGBoost in detail'
+subtitle: 'XGBoost in detail'
 category: 'Machine Learning'
 date: '2024-04-19'
 cover_image: '/static/blog_images/xgboost.png'
