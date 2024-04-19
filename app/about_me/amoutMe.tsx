@@ -122,7 +122,6 @@ export function AboutMe(): React.ReactElement {
                                     </a>
                                     .
                                 </p>
-                                <br />
                                 <p>
                                     ActionSync helps individuals and
                                     small-medium businesses use generative AI by
@@ -133,7 +132,6 @@ export function AboutMe(): React.ReactElement {
                                     vitals and receive daily personalized health
                                     nudges.
                                 </p>
-                                <br />
                                 <p>
                                     I&apos;m working at Sift Science, where I
                                     improve and scale machine-learning models

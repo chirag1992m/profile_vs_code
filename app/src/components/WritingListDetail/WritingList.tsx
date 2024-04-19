@@ -25,7 +25,7 @@ export const WritingList = ({
                 title="Writing Posts"
             />
 
-            <div className="lg:space-y-1 lg:p-3">
+            <div className="lg:space-y-1 lg:p-2">
                 {categorizedPosts &&
                     Object.entries(categorizedPosts).map(
                         ([category, posts]) => {
@@ -36,7 +36,7 @@ export const WritingList = ({
                                 >
                                     <h4
                                         key={`wl_cat_${category}`}
-                                        className="px-2 pt-5 pb-2 text-xs font-semibold text-gray-1000 text-opacity-40 dark:text-white"
+                                        className="px-1 pt-2 pb-1 text-xs font-semibold text-gray-1000 text-opacity-40 dark:text-white"
                                     >
                                         {category}
                                     </h4>

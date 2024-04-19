@@ -1,13 +1,16 @@
 import React from 'react'
 
-import Markdown from 'markdown-to-jsx'
-
 import { ListDetailView } from '../../src/components/ListDetail/ListDetailView'
+import { WritingDetailView } from '../../src/components/WritingListDetail/WritingDetailView'
 import { WritingList } from '../../src/components/WritingListDetail/WritingList'
-import { getCategorizedPosts, getPostContent, getPostMedata } from '../posts'
+import {
+    getAllPostsMetadata,
+    getCategorizedPosts,
+    getWritingPost,
+} from '../posts'
 
 export function generateStaticParams() {
-    const posts = getPostMedata()
+    const posts = getAllPostsMetadata()
 
     const paths = posts.map((post) => ({
         slug: post.slug,
@@ -21,6 +24,8 @@ export default function Page({
 }: {
     params: { slug: string }
 }): React.ReactElement {
+    const post = getWritingPost(params.slug)
+
     return (
         <ListDetailView
             list={
@@ -28,8 +33,15 @@ export default function Page({
                     categorizedPosts={getCategorizedPosts()}
                 ></WritingList>
             }
-            hasDetail={false}
-            detail={<Markdown>{getPostContent(params.slug)}</Markdown>}
+            hasDetail={Boolean(post)}
+            detail={
+                post && (
+                    <WritingDetailView
+                        postMetadata={post.postMetadata}
+                        postContent={post.postContent}
+                    ></WritingDetailView>
+                )
+            }
         />
     )
 }

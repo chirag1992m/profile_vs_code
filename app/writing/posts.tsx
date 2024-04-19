@@ -1,5 +1,6 @@
 import fs from 'fs'
 import matter from 'gray-matter'
+import { type WritingDetailProps } from '../src/components/WritingListDetail/WritingDetailView'
 
 const BlogPostFolder = 'public/blog_posts'
 
@@ -12,7 +13,7 @@ export interface postMetadata {
     cover_image: string
 }
 
-export const getPostMedata = (): postMetadata[] => {
+export const getAllPostsMetadata = (): postMetadata[] => {
     const markdownPosts = fs
         .readdirSync(BlogPostFolder)
         .filter((file) => file.endsWith('.md'))
@@ -36,7 +37,7 @@ export const getPostMedata = (): postMetadata[] => {
 }
 
 export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
-    const postsMetadata = getPostMedata()
+    const postsMetadata = getAllPostsMetadata()
     const categories: Record<string, postMetadata[]> = postsMetadata.reduce(
         (x, y) => {
             ;(x[y.category] = x[y.category] || []).push(y)
@@ -48,8 +49,8 @@ export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
     return categories
 }
 
-export const getPostContent = (slug: string): string => {
-    const markdownSlugs = getPostMedata().map((postMetadata) => {
+export const getWritingPost = (slug: string): WritingDetailProps | null => {
+    const markdownSlugs = getAllPostsMetadata().map((postMetadata) => {
         return postMetadata.slug
     })
 
@@ -58,9 +59,18 @@ export const getPostContent = (slug: string): string => {
         const fileContent = fs.readFileSync(filePath, 'utf-8')
         const matterResult = matter(fileContent)
 
-        // console.log(content)
-        return matterResult.content
+        return {
+            postMetadata: {
+                slug: matterResult.data.slug,
+                title: matterResult.data.title,
+                substitle: matterResult.data.subtitle,
+                category: matterResult.data.category,
+                date: matterResult.data.date,
+                cover_image: matterResult.data.cover_image,
+            },
+            postContent: matterResult.content,
+        }
     } else {
-        return slug
+        return null
     }
 }
