@@ -116,12 +116,3 @@ ReactDOM.render(
     document.querySelector('#content')
 )
 ```
-
-## More info?
-
-Much more info is available in the
-[readme on GitHub](https://github.com/remarkjs/react-markdown)!
-
----
-
-A component by [Espen Hovlandsdal](https://espen.codes/)

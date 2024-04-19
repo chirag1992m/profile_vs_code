@@ -1,6 +1,6 @@
 import SideBar from '../src/components/SideBar'
 
-import sections from './writing_sections'
+import { getPostNavigationSections } from './post_navigation'
 
 export default function WritingLayout({
     children,
@@ -14,7 +14,7 @@ export default function WritingLayout({
                     title: 'Writing',
                     globalMenu: false,
                 }}
-                navSections={sections}
+                navSections={getPostNavigationSections()}
                 footerProps={null}
             ></SideBar>
             <div className="flex flex-1">{children}</div>

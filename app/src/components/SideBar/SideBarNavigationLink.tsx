@@ -9,8 +9,8 @@ import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
 export interface SideBarNavigationLinkProps {
     href: string
     label: string
-    icon: IconType
-    trailingIcon: IconType | null
+    icon: React.ReactNode
+    trailingIcon: React.ReactNode | null
     // TODO: What is this used for?
     // trailingAction: Action,
     isActive: boolean
@@ -50,12 +50,12 @@ export function SideBarNavigationLink({
                 }`}
             >
                 <span className="flex items-center justify-center w-4">
-                    {icon({})}
+                    {icon}
                 </span>
                 <span className="flex-1">{label}</span>
                 {trailingIcon && (
                     <span className="flex items-center justify-center w-4 text-black text-opacity-40 dark:text-white">
-                        {trailingIcon({})}
+                        {trailingIcon}
                     </span>
                 )}
             </Link>
