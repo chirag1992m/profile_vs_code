@@ -1,8 +1,6 @@
 import * as React from 'react'
-import { type IconType } from 'react-icons'
 
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 
 import { GlobalNavigationContext } from '../../contexts/GlobalNavigationContext'
 
@@ -13,24 +11,17 @@ export interface SideBarNavigationLinkProps {
     trailingIcon: React.ReactNode | null
     // TODO: What is this used for?
     // trailingAction: Action,
-    isActive: boolean
     isExternal: boolean
 }
 
 export function SideBarNavigationLink({
-    href,
-    label,
-    icon,
-    trailingIcon,
+    linkProps,
     isActive,
-    isExternal,
-}: SideBarNavigationLinkProps): React.ReactElement {
+}: {
+    linkProps: SideBarNavigationLinkProps
+    isActive: boolean
+}): React.ReactElement {
     const { setIsOpen } = React.useContext(GlobalNavigationContext)
-    const router: string = usePathname()
-
-    // console.log(router)
-    // TODO: Make this better
-    isActive = router === href
 
     return (
         <li
@@ -40,9 +31,9 @@ export function SideBarNavigationLink({
             }}
         >
             <Link
-                href={href}
-                target={isExternal ? '_blank' : undefined}
-                rel={isExternal ? 'noopener noreferrer' : undefined}
+                href={linkProps.href}
+                target={linkProps.isExternal ? '_blank' : undefined}
+                rel={linkProps.isExternal ? 'noopener noreferrer' : undefined}
                 className={`flex flex-1 items-center space-x-3 rounded-md px-2 py-1.5 text-sm font-medium  ${
                     isActive
                         ? 'bg-black text-white hover:bg-black hover:text-white dark:bg-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white'
@@ -50,12 +41,12 @@ export function SideBarNavigationLink({
                 }`}
             >
                 <span className="flex items-center justify-center w-4">
-                    {icon}
+                    {linkProps.icon}
                 </span>
-                <span className="flex-1">{label}</span>
-                {trailingIcon && (
+                <span className="flex-1">{linkProps.label}</span>
+                {linkProps.trailingIcon && (
                     <span className="flex items-center justify-center w-4 text-black text-opacity-40 dark:text-white">
-                        {trailingIcon}
+                        {linkProps.trailingIcon}
                     </span>
                 )}
             </Link>

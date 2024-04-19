@@ -123,4 +123,5 @@ Much more info is available in the
 [readme on GitHub](https://github.com/remarkjs/react-markdown)!
 
 ---
+
 [readme on GitHub](https://github.com/remarkjs/react-markdown)!

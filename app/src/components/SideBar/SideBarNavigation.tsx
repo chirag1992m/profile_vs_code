@@ -31,7 +31,8 @@ export function SideBarNavigation({
                         {section.links.map((item, j) => (
                             <SideBarNavigationLink
                                 key={`section_${i}_link_${j}`}
-                                {...item}
+                                linkProps={item}
+                                isActive={false}
                             />
                         ))}
                     </ul>

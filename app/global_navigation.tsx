@@ -14,7 +14,6 @@ const homeSection: SideBarNavigationLinkProps[] = [
         label: 'About Me',
         icon: <RiAccountCircleFill></RiAccountCircleFill>,
         trailingIcon: null,
-        isActive: true,
         isExternal: false,
     },
     {
@@ -22,7 +21,6 @@ const homeSection: SideBarNavigationLinkProps[] = [
         label: 'Writing',
         icon: <FaPenNib></FaPenNib>,
         trailingIcon: null,
-        isActive: false,
         isExternal: false,
     },
 ]
@@ -33,7 +31,6 @@ export const projectsSection: SideBarNavigationLinkProps[] = [
         label: 'ActionSync',
         icon: <RiAccountCircleFill></RiAccountCircleFill>,
         trailingIcon: <TbExternalLink></TbExternalLink>,
-        isActive: false,
         isExternal: true,
     },
     {
@@ -41,7 +38,6 @@ export const projectsSection: SideBarNavigationLinkProps[] = [
         label: 'NestAura',
         icon: <FaFileMedicalAlt></FaFileMedicalAlt>,
         trailingIcon: <TbExternalLink></TbExternalLink>,
-        isActive: false,
         isExternal: true,
     },
     {
@@ -49,7 +45,6 @@ export const projectsSection: SideBarNavigationLinkProps[] = [
         label: 'ML Book',
         icon: <GiBookCover></GiBookCover>,
         trailingIcon: null,
-        isActive: false,
         isExternal: false,
     },
 ]
@@ -60,7 +55,6 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
         label: 'Github',
         icon: <FaGithub></FaGithub>,
         trailingIcon: <TbExternalLink></TbExternalLink>,
-        isActive: false,
         isExternal: true,
     },
     {
@@ -68,7 +62,6 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
         label: 'LinkedIn',
         icon: <BsLinkedin></BsLinkedin>,
         trailingIcon: <TbExternalLink></TbExternalLink>,
-        isActive: false,
         isExternal: true,
     },
     {
@@ -76,7 +69,6 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
         label: 'Google Scholar',
         icon: <FaGoogleScholar></FaGoogleScholar>,
         trailingIcon: <TbExternalLink></TbExternalLink>,
-        isActive: false,
         isExternal: true,
     },
 ]
@@ -87,7 +79,6 @@ export const archiveSection: SideBarNavigationLinkProps[] = [
         label: 'Old Profile',
         icon: <FaBoxArchive></FaBoxArchive>,
         trailingIcon: <TbExternalLink></TbExternalLink>,
-        isActive: false,
         isExternal: true,
     },
 ]

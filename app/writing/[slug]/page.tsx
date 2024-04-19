@@ -1,5 +1,5 @@
-import React from 'react'
 import Markdown from 'markdown-to-jsx'
+import React from 'react'
 import { getPostContent, getPostMedata } from '../posts'
 
 export function generateStaticParams() {
@@ -7,11 +7,10 @@ export function generateStaticParams() {
     // console.log(posts.map((post) => {return `/writing/${post}`}))
     const paths = posts.map((post) => ({
         slug: post.slug,
-      }))
+    }))
 
     return paths
 }
-
 
 export default function Page({
     params,
@@ -24,7 +23,7 @@ export default function Page({
         </div>
         // <div className="flex w-full">
         //     <div className="flex h-full w-full items-center justify-center">
-                
+
         //     </div>
         // </div>
     )
