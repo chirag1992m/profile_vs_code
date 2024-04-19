@@ -1,10 +1,14 @@
-import Markdown from 'markdown-to-jsx'
 import React from 'react'
+
+import Markdown from 'markdown-to-jsx'
+
+import { ListDetailView } from '../../src/components/ListDetail/ListDetailView'
+import { WritingList } from '../../src/components/WritingListDetail/WritingList'
 import { getPostContent, getPostMedata } from '../posts'
 
 export function generateStaticParams() {
     const posts = getPostMedata()
-    // console.log(posts.map((post) => {return `/writing/${post}`}))
+
     const paths = posts.map((post) => ({
         slug: post.slug,
     }))
@@ -18,13 +22,10 @@ export default function Page({
     params: { slug: string }
 }): React.ReactElement {
     return (
-        <div className="flex w-full">
-            <Markdown>{getPostContent(params.slug)}</Markdown>
-        </div>
-        // <div className="flex w-full">
-        //     <div className="flex h-full w-full items-center justify-center">
-
-        //     </div>
-        // </div>
+        <ListDetailView
+            list={<WritingList posts={getPostMedata()}></WritingList>}
+            hasDetail={false}
+            detail={<Markdown>{getPostContent(params.slug)}</Markdown>}
+        />
     )
 }

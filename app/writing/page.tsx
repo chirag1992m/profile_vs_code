@@ -1,9 +1,15 @@
 import React from 'react'
 
+import { ListDetailView } from '../src/components/ListDetail/ListDetailView'
+import { WritingList } from '../src/components/WritingListDetail/WritingList'
+import { getPostMedata } from './posts'
+
 export default function Page(): React.ReactElement {
     return (
-        <div className="flex w-full">
-            <div className="flex h-full w-full items-center justify-center"></div>
-        </div>
+        <ListDetailView
+            list={<WritingList posts={getPostMedata()}></WritingList>}
+            hasDetail={false}
+            detail={null}
+        />
     )
 }
