@@ -8,11 +8,13 @@ import { type SideBarNavigationLinkProps } from '../src/components/SideBar/SideB
 export const getPostNavigationSections =
     (): SideBarNavigationSectionProps[] => {
         const postsMetadata = getPostMedata()
-        const categories: Record<string, postMetadata[]> =
-            postsMetadata.reduce((x, y) => {
+        const categories: Record<string, postMetadata[]> = postsMetadata.reduce(
+            (x, y) => {
                 ;(x[y.category] = x[y.category] || []).push(y)
                 return x
-            }, {})
+            },
+            {}
+        )
 
         const postsNavigationSections: SideBarNavigationSectionProps[] = []
         for (const [key, value] of Object.entries(categories)) {
