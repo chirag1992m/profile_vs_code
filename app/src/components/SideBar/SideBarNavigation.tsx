@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { usePathname } from 'next/navigation'
 import {
     SideBarNavigationLink,
     type SideBarNavigationLinkProps,
@@ -15,6 +16,17 @@ export function SideBarNavigation({
 }: {
     navigationSections: SideBarNavigationSectionProps[]
 }): React.ReactElement {
+    const pathName = usePathname()
+
+    const getIsActive = (href: string): boolean => {
+        if (href === '/') {
+            if (href === pathName) return true
+        } else if (pathName.startsWith(href)) {
+            return true
+        }
+        return false
+    }
+
     return (
         <div className="flex-1 px-3 py-3 space-y-1">
             {navigationSections.map((section, i) => {
@@ -31,7 +43,8 @@ export function SideBarNavigation({
                         {section.links.map((item, j) => (
                             <SideBarNavigationLink
                                 key={`section_${i}_link_${j}`}
-                                {...item}
+                                linkProps={item}
+                                isActive={getIsActive(item.href)}
                             />
                         ))}
                     </ul>

@@ -1,4 +1,3 @@
-'use client'
 import { BsLinkedin } from 'react-icons/bs'
 import { FaFileMedicalAlt, FaGithub } from 'react-icons/fa'
 import { FaBoxArchive, FaGoogleScholar, FaPenNib } from 'react-icons/fa6'
@@ -13,17 +12,15 @@ const homeSection: SideBarNavigationLinkProps[] = [
     {
         href: '/',
         label: 'About Me',
-        icon: RiAccountCircleFill,
+        icon: <RiAccountCircleFill></RiAccountCircleFill>,
         trailingIcon: null,
-        isActive: true,
         isExternal: false,
     },
     {
         href: '/writing',
         label: 'Writing',
-        icon: FaPenNib,
+        icon: <FaPenNib></FaPenNib>,
         trailingIcon: null,
-        isActive: false,
         isExternal: false,
     },
 ]
@@ -32,25 +29,22 @@ export const projectsSection: SideBarNavigationLinkProps[] = [
     {
         href: 'http://actionsync.ai',
         label: 'ActionSync',
-        icon: RiAccountCircleFill,
-        trailingIcon: TbExternalLink,
-        isActive: false,
+        icon: <RiAccountCircleFill></RiAccountCircleFill>,
+        trailingIcon: <TbExternalLink></TbExternalLink>,
         isExternal: true,
     },
     {
         href: 'http://nestaura.ai',
         label: 'NestAura',
-        icon: FaFileMedicalAlt,
-        trailingIcon: TbExternalLink,
-        isActive: false,
+        icon: <FaFileMedicalAlt></FaFileMedicalAlt>,
+        trailingIcon: <TbExternalLink></TbExternalLink>,
         isExternal: true,
     },
     {
         href: '/ml_book',
         label: 'ML Book',
-        icon: GiBookCover,
+        icon: <GiBookCover></GiBookCover>,
         trailingIcon: null,
-        isActive: false,
         isExternal: false,
     },
 ]
@@ -59,25 +53,22 @@ export const onlineSection: SideBarNavigationLinkProps[] = [
     {
         href: 'https://github.com/chirag1992m',
         label: 'Github',
-        icon: FaGithub,
-        trailingIcon: TbExternalLink,
-        isActive: false,
+        icon: <FaGithub></FaGithub>,
+        trailingIcon: <TbExternalLink></TbExternalLink>,
         isExternal: true,
     },
     {
         href: 'https://www.linkedin.com/in/chirag1992m/',
         label: 'LinkedIn',
-        icon: BsLinkedin,
-        trailingIcon: TbExternalLink,
-        isActive: false,
+        icon: <BsLinkedin></BsLinkedin>,
+        trailingIcon: <TbExternalLink></TbExternalLink>,
         isExternal: true,
     },
     {
         href: 'https://scholar.google.com/citations?user=HLmyBjQAAAAJ&hl=en',
         label: 'Google Scholar',
-        icon: FaGoogleScholar,
-        trailingIcon: TbExternalLink,
-        isActive: false,
+        icon: <FaGoogleScholar></FaGoogleScholar>,
+        trailingIcon: <TbExternalLink></TbExternalLink>,
         isExternal: true,
     },
 ]
@@ -86,9 +77,8 @@ export const archiveSection: SideBarNavigationLinkProps[] = [
     {
         href: 'https://digital-madness.in/old_website',
         label: 'Old Profile',
-        icon: FaBoxArchive,
-        trailingIcon: TbExternalLink,
-        isActive: false,
+        icon: <FaBoxArchive></FaBoxArchive>,
+        trailingIcon: <TbExternalLink></TbExternalLink>,
         isExternal: true,
     },
 ]
