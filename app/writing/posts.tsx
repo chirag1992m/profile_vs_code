@@ -7,10 +7,11 @@ const BlogPostFolder = 'public/blog_posts'
 export interface postMetadata {
     slug: string
     title: string
-    substitle: string
+    subtitle: string
     category: string
     date: string
     cover_image: string
+    cover_image_prompt?: string
 }
 
 export const getAllPostsMetadata = (): postMetadata[] => {
@@ -26,10 +27,11 @@ export const getAllPostsMetadata = (): postMetadata[] => {
         return {
             slug: matterResult.data.slug,
             title: matterResult.data.title,
-            substitle: matterResult.data.subtitle,
+            subtitle: matterResult.data.subtitle,
             category: matterResult.data.category,
             date: matterResult.data.date,
             cover_image: matterResult.data.cover_image,
+            cover_image_prompt: matterResult.data.cover_image_prompt? matterResult.data.cover_image_prompt: ''
         }
     })
 
@@ -63,10 +65,11 @@ export const getWritingPost = (slug: string): WritingDetailProps | null => {
             postMetadata: {
                 slug: matterResult.data.slug,
                 title: matterResult.data.title,
-                substitle: matterResult.data.subtitle,
+                subtitle: matterResult.data.subtitle,
                 category: matterResult.data.category,
                 date: matterResult.data.date,
                 cover_image: matterResult.data.cover_image,
+                cover_image_prompt: matterResult.data.cover_image_prompt? matterResult.data.cover_image_prompt: ''
             },
             postContent: matterResult.content,
         }

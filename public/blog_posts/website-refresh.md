@@ -1,10 +1,11 @@
 ---
-slug: 'xgboost'
-title: 'XGBoost'
-subtitle: 'XGBoost in detail'
-category: 'Machine Learning'
-date: '2024-04-19'
-cover_image: '/static/blog_images/xgboost.png'
+slug: 'website-refresh'
+title: 'Website Refresh'
+subtitle: 'Giving my old website, a new look'
+category: 'Thoughts'
+date: '2024-05-15'
+cover_image: '/blog_images/website-refresh/plant_lifecycle.webp'
+cover_image_prompt: 'A high-definition depiction of a natural lifecycle in a forest setting, suitable for a blog cover image, with a wide aspect ratio. The image illustrates the journey from seed to mature tree, featuring a progression from left to right: a small seed sprouting in rich, dark soil, a young sapling with tender leaves, a tree in full bloom with colorful flowers, and finally, an ancient tree with a thick trunk and sprawling branches, covered in moss and surrounded by fallen leaves. The lush, green forest and soft sunlight filtering through the leaves create a tranquil and detailed atmosphere.'
 ---
 
 Hello this is my first blog after a long time on XGBoost.
@@ -34,7 +35,7 @@ Here is an example of a plugin in action
 Here is an example of a plugin to highlight code:
 [`rehype-highlight`](https://github.com/rehypejs/rehype-highlight).
 
-```js
+```python
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Markdown from 'react-markdown'

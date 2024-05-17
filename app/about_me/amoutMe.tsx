@@ -89,7 +89,13 @@ export function AboutMe(): React.ReactElement {
                             <div className="prose text-primary">
                                 <p>
                                     Hey, I&apos;m Chirag👋. I&apos;m an
-                                    engineer, researcher,{' '}
+                                    engineer, {' '}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://scholar.google.com/citations?user=HLmyBjQAAAAJ&hl=en"
+                                    >researcher</a>,
+                                    {' '}
                                     <Link href="/writing" passHref>
                                         writer
                                     </Link>
@@ -101,7 +107,7 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         software tinkerer
                                     </a>
-                                    . Currently, I&apos;m deeply involved in
+                                    . Currently, I&apos;m
                                     building two exciting projects: &nbsp;
                                     <a
                                         target="_blank"
@@ -150,7 +156,8 @@ export function AboutMe(): React.ReactElement {
                         <SectionContent>
                             <Image
                                 priority
-                                src={seattlePic}
+                                src={'/static/seattle.webp'}
+                                height={1200}
                                 width={800}
                                 className="rounded-2xl"
                                 quality={100}
