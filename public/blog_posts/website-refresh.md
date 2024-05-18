@@ -118,6 +118,18 @@ ReactDOM.render(
 )
 ```
 
+## React Math
+
+Here you can write equations like this:
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+
+Or like this: 
+```math
+L = \frac{1}{2} \rho v^2 S C_L
+```
+
 ## More info?
 
 Much more info is available in the

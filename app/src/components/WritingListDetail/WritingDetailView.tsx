@@ -42,7 +42,11 @@ export const WritingDetailView: React.FC<WritingDetailProps> = ({
                         fill
                         className="rounded-2xl"
                         quality={100}
-                        alt={postMetadata.cover_image_prompt? postMetadata.cover_image_prompt: postMetadata.title}
+                        alt={
+                            postMetadata.cover_image_prompt
+                                ? postMetadata.cover_image_prompt
+                                : postMetadata.title
+                        }
                     />
                     <Detail.Title ref={titleRef}>
                         {postMetadata.title}

@@ -10,8 +10,6 @@ import { education, workHistory } from './information'
 import { Detail } from '../src/components/ListDetail/Detail'
 import { TitleBar } from '../src/components/TitleBar'
 
-import seattlePic from '../../public/static/seattle.webp'
-
 const SectionContainer: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
     return (
         <div
@@ -89,13 +87,15 @@ export function AboutMe(): React.ReactElement {
                             <div className="prose text-primary">
                                 <p>
                                     Hey, I&apos;m Chirag👋. I&apos;m an
-                                    engineer, {' '}
+                                    engineer,{' '}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://scholar.google.com/citations?user=HLmyBjQAAAAJ&hl=en"
-                                    >researcher</a>,
-                                    {' '}
+                                    >
+                                        researcher
+                                    </a>
+                                    ,{' '}
                                     <Link href="/writing" passHref>
                                         writer
                                     </Link>
@@ -107,8 +107,8 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         software tinkerer
                                     </a>
-                                    . Currently, I&apos;m
-                                    building two exciting projects: &nbsp;
+                                    . Currently, I&apos;m building two exciting
+                                    projects: &nbsp;
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"

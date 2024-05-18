@@ -31,7 +31,9 @@ export const getAllPostsMetadata = (): postMetadata[] => {
             category: matterResult.data.category,
             date: matterResult.data.date,
             cover_image: matterResult.data.cover_image,
-            cover_image_prompt: matterResult.data.cover_image_prompt? matterResult.data.cover_image_prompt: ''
+            cover_image_prompt: matterResult.data.cover_image_prompt
+                ? matterResult.data.cover_image_prompt
+                : '',
         }
     })
 
@@ -69,7 +71,9 @@ export const getWritingPost = (slug: string): WritingDetailProps | null => {
                 category: matterResult.data.category,
                 date: matterResult.data.date,
                 cover_image: matterResult.data.cover_image,
-                cover_image_prompt: matterResult.data.cover_image_prompt? matterResult.data.cover_image_prompt: ''
+                cover_image_prompt: matterResult.data.cover_image_prompt
+                    ? matterResult.data.cover_image_prompt
+                    : '',
             },
             postContent: matterResult.content,
         }
