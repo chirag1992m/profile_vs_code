@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import rehypeKatex from 'rehype-katex'
 import rehypeSanitize, { defaultSchema } from 'rehype-sanitize'
 import rehypeSlug from 'rehype-slug'
-import rehypeKatex from 'rehype-katex'
 import remarkGfm from 'remark-gfm'
-import remarkMath from 'remark-math'
 import linkifyRegex from 'remark-linkify-regex'
+import remarkMath from 'remark-math'
 
 import { CodeBlock } from './CodeBlock'
 
@@ -80,7 +80,7 @@ export function MarkdownRenderer(props: any) {
             rehypePlugins={[
                 [rehypeSanitize, defaultSchema],
                 rehypeSlug,
-                [rehypeKatex, { output: 'mathml'}],
+                [rehypeKatex, { output: 'mathml' }],
                 [rehypeAutolinkHeadings, { behavior: 'wrap' }],
             ]}
             components={components}
