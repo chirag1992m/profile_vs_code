@@ -119,8 +119,8 @@ export function AboutMe(): React.ReactElement {
                                     slides.
                                 </p>
                                 <p>
-                                    Currently, I&apos;m also building two exciting
-                                    projects: &nbsp;
+                                    Currently, I&apos;m also building two
+                                    exciting projects: &nbsp;
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
