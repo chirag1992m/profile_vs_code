@@ -107,7 +107,19 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         software tinkerer
                                     </a>
-                                    . Currently, I&apos;m building two exciting
+                                    .
+                                </p>
+                                <p>
+                                    I&apos;m working at Sift Science, where I
+                                    improve and scale machine-learning models
+                                    for fraud detection in payment systems.
+                                    Previously, I spent four years at PathAI,
+                                    where I trained and developed neural network
+                                    systems for cancer detection from pathology
+                                    slides.
+                                </p>
+                                <p>
+                                    Currently, I&apos;m also building two exciting
                                     projects: &nbsp;
                                     <a
                                         target="_blank"
@@ -126,10 +138,7 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         NestAura
                                     </a>
-                                    .
-                                </p>
-                                <p>
-                                    ActionSync helps individuals and
+                                    . ActionSync helps individuals and
                                     small-medium businesses use generative AI by
                                     automating software tasks through language
                                     and an intuitive drag-and-drop UI. NestAura,
@@ -137,15 +146,6 @@ export function AboutMe(): React.ReactElement {
                                     track of their healthcare documents and
                                     vitals and receive daily personalized health
                                     nudges.
-                                </p>
-                                <p>
-                                    I&apos;m working at Sift Science, where I
-                                    improve and scale machine-learning models
-                                    for fraud detection in payment systems.
-                                    Previously, I spent four years at PathAI,
-                                    where I trained and developed neural network
-                                    systems for cancer detection from pathology
-                                    slides.
                                 </p>
                             </div>
                         </SectionContent>
