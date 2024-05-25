@@ -20,7 +20,7 @@ that would be a wonderful bonus. Because, as Richard Feynman said,
 
 # Old website, a new look
 
-Before I started writing again, I wanted a frictionless way to create beautiful blogs and publish them on my own domain, which I've owned for over 15 years but haven't updated or maintained in a long time. The previous website was built with HTML, CSS, and PHP, and the blog was managed via WordPress. It worked fine for its time. However, as web technologies advanced and the variety of devices used to access the web expanded, it couldn't keep up and started to look outdated on different screen sizes.
+Before I started writing again, I wanted a frictionless way to create beautiful blogs and publish them on my own domain, which I've owned for over 15 years but haven't updated or maintained in a long time. The previous website was built with *HTML*, *CSS*, and *PHP*, and the blog was managed via *WordPress*. It worked fine for its time. However, as web technologies advanced and the variety of devices used to access the web expanded, it couldn't keep up and started to look outdated on different screen sizes.
 
 This led me to search for better programming languages, frameworks, templates, and designs. In a world where instant access to anything is just a click away, building something from scratch remains a challenge. Drawing inspiration from various designs I encountered online, I decided to rethink my technical stack. 
 My goal were simple and limited to:
@@ -30,3 +30,13 @@ My goal were simple and limited to:
 * The pages should be responsive and give a "journal" feel.
 
 ## The new technical stack
+
+Reading up about the modern web development, a few front-end frameworks stand out from the rest by a big margin as you can see from this usage graph
+from [statista](https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/). All of these frameworks are not 
+mutually exclusive and can be used with one another as needed depending upon what you're building.
+
+![image](/blog_images/website-refresh/web_frameworks_usage.png)
+
+Giving a small usage definition for these frameworks is as follows:
+
+1. Node.js: 
