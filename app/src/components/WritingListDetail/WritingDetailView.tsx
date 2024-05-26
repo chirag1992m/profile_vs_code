@@ -1,6 +1,8 @@
 'use client'
 import * as React from 'react'
 
+import Image from 'next/image'
+
 import { type postMetadata } from '../../../writing/posts'
 import { Detail } from '../ListDetail/Detail'
 import { TitleBar } from '../TitleBar'
@@ -34,18 +36,24 @@ export const WritingDetailView: React.FC<WritingDetailProps> = ({
 
             <Detail.ContentContainer>
                 <Detail.Header>
+                    <Image
+                        priority
+                        src={postMetadata.cover_image}
+                        fill
+                        className="rounded-2xl"
+                        quality={100}
+                        alt={
+                            postMetadata.cover_image_prompt
+                                ? postMetadata.cover_image_prompt
+                                : postMetadata.title
+                        }
+                    />
                     <Detail.Title ref={titleRef}>
                         {postMetadata.title}
                     </Detail.Title>
-                    <span
-                        title={postMetadata.date}
-                        className="text-tertiary inline-block leading-snug"
-                    >
-                        {postMetadata.substitle}
-                    </span>
                 </Detail.Header>
 
-                <article className="prose lg:prose-md">
+                <article className="prose lg:prose-md mt-20">
                     <MarkdownRenderer>{postContent}</MarkdownRenderer>
                 </article>
             </Detail.ContentContainer>

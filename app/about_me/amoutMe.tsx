@@ -10,8 +10,6 @@ import { education, workHistory } from './information'
 import { Detail } from '../src/components/ListDetail/Detail'
 import { TitleBar } from '../src/components/TitleBar'
 
-import seattlePic from '../../public/static/seattle.webp'
-
 const SectionContainer: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
     return (
         <div
@@ -89,7 +87,15 @@ export function AboutMe(): React.ReactElement {
                             <div className="prose text-primary">
                                 <p>
                                     Hey, I&apos;m Chirag👋. I&apos;m an
-                                    engineer, researcher,{' '}
+                                    engineer,{' '}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://scholar.google.com/citations?user=HLmyBjQAAAAJ&hl=en"
+                                    >
+                                        researcher
+                                    </a>
+                                    ,{' '}
                                     <Link href="/writing" passHref>
                                         writer
                                     </Link>
@@ -101,8 +107,20 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         software tinkerer
                                     </a>
-                                    . Currently, I&apos;m deeply involved in
-                                    building two exciting projects: &nbsp;
+                                    .
+                                </p>
+                                <p>
+                                    I&apos;m working at Sift Science, where I
+                                    improve and scale machine-learning models
+                                    for fraud detection in payment systems.
+                                    Previously, I spent four years at PathAI,
+                                    where I trained and developed neural network
+                                    systems for cancer detection from pathology
+                                    slides.
+                                </p>
+                                <p>
+                                    Currently, I&apos;m also building two
+                                    exciting projects: &nbsp;
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -120,10 +138,7 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         NestAura
                                     </a>
-                                    .
-                                </p>
-                                <p>
-                                    ActionSync helps individuals and
+                                    . ActionSync helps individuals and
                                     small-medium businesses use generative AI by
                                     automating software tasks through language
                                     and an intuitive drag-and-drop UI. NestAura,
@@ -131,15 +146,6 @@ export function AboutMe(): React.ReactElement {
                                     track of their healthcare documents and
                                     vitals and receive daily personalized health
                                     nudges.
-                                </p>
-                                <p>
-                                    I&apos;m working at Sift Science, where I
-                                    improve and scale machine-learning models
-                                    for fraud detection in payment systems.
-                                    Previously, I spent four years at PathAI,
-                                    where I trained and developed neural network
-                                    systems for cancer detection from pathology
-                                    slides.
                                 </p>
                             </div>
                         </SectionContent>
@@ -150,7 +156,8 @@ export function AboutMe(): React.ReactElement {
                         <SectionContent>
                             <Image
                                 priority
-                                src={seattlePic}
+                                src={'/static/seattle.webp'}
+                                height={1200}
                                 width={800}
                                 className="rounded-2xl"
                                 quality={100}

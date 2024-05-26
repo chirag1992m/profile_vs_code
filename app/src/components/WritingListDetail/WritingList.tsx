@@ -41,7 +41,7 @@ export const WritingList = ({
                                         {category}
                                     </h4>
                                     {posts.map((post, i) => {
-                                        const active = currentPathname.endsWith(
+                                        const active = currentPathname.includes(
                                             post.slug
                                         )
 

@@ -16,7 +16,7 @@ export const WritingListItem = React.memo<WritingListItemProps>(
                 href="/writing/[slug]"
                 as={`/writing/${post.slug}`}
                 title={post.title}
-                description={post.substitle}
+                description={post.subtitle}
                 byline={`${post.date}`}
                 active={active}
             />

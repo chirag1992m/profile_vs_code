@@ -24,7 +24,7 @@ const Container = React.forwardRef<HTMLDivElement, DetailContainerProps>(
             <div
                 ref={ref}
                 id="main"
-                className="relative flex max-h-screen w-full flex-col overflow-y-auto bg-white dark:bg-black"
+                className="flex max-h-screen w-full flex-col overflow-y-auto bg-white dark:bg-black"
                 {...props}
             />
         )
@@ -32,7 +32,7 @@ const Container = React.forwardRef<HTMLDivElement, DetailContainerProps>(
 )
 
 const Header: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
-    return <div className="space-y-3" {...props} />
+    return <div className="relative w-[675px] h-[425px]" {...props} />
 }
 
 interface TitleProps {
@@ -43,7 +43,7 @@ const Title = React.forwardRef<HTMLHeadingElement, TitleProps>((props, ref) => {
     return (
         <h1
             ref={ref}
-            className="text-primary font-sans text-2xl font-bold xl:text-3xl"
+            className="text-primary font-sans text-3xl font-bold xl:text-3xl absolute bottom-[-30px] left-2.5 bg-white border-2 border-black rounded-lg p-2.5"
             {...props}
         />
     )

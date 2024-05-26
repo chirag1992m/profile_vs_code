@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import rehypeKatex from 'rehype-katex'
 import rehypeSanitize, { defaultSchema } from 'rehype-sanitize'
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
 import linkifyRegex from 'remark-linkify-regex'
+import remarkMath from 'remark-math'
 
 import { CodeBlock } from './CodeBlock'
 
@@ -72,11 +74,13 @@ export function MarkdownRenderer(props: any) {
             {...rest}
             remarkPlugins={[
                 remarkGfm,
+                remarkMath,
                 linkifyRegex(/^(?!.*\bRT\b)(?:.+\s)?@\w+/i),
             ]}
             rehypePlugins={[
                 [rehypeSanitize, defaultSchema],
                 rehypeSlug,
+                [rehypeKatex, { output: 'mathml' }],
                 [rehypeAutolinkHeadings, { behavior: 'wrap' }],
             ]}
             components={components}

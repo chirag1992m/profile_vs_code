@@ -1,10 +1,11 @@
 ---
-slug: 'xgboost'
-title: 'XGBoost'
-subtitle: 'XGBoost in detail'
-category: 'Machine Learning'
-date: '2024-04-19'
-cover_image: '/static/blog_images/xgboost.png'
+slug: 'example-blogpost'
+title: 'Example Blogpost'
+subtitle: 'Example blog, showing markdown powers'
+category: 'Ignore'
+date: '2024-05-15'
+cover_image: '/blog_images/website-refresh/plant_lifecycle.webp'
+cover_image_prompt: 'Some prompt for the cover image'
 ---
 
 Hello this is my first blog after a long time on XGBoost.
@@ -34,7 +35,7 @@ Here is an example of a plugin in action
 Here is an example of a plugin to highlight code:
 [`rehype-highlight`](https://github.com/rehypejs/rehype-highlight).
 
-```js
+```python
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Markdown from 'react-markdown'
@@ -115,6 +116,20 @@ ReactDOM.render(
     </Markdown>,
     document.querySelector('#content')
 )
+```
+
+## React Math
+
+Here you can write equations like this:
+
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+
+Or like this:
+
+```math
+L = \frac{1}{2} \rho v^2 S C_L
 ```
 
 ## More info?
