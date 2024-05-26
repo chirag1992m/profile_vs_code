@@ -22,7 +22,7 @@ This led me to search for better programming languages, frameworks, templates, a
 
 My goal were simple and limited to:
 
--   Ensure the website could be hosted on a simple [Apache-base](https://httpd.apache.org/) server and managed via [cPanel](https://en.wikipedia.org/wiki/CPanel)
+-   Ensure the website could be hosted on a simple [Apache-base](https://httpd.apache.org/) server and managed via [cPanel's](https://en.wikipedia.org/wiki/CPanel) file-manager reducing the complexity of routing.
 -   Writing new blog posts as easy as writing in [markdown](https://en.wikipedia.org/wiki/Markdown), keeping them clean, intutive and easy to read and write.
 -   The webpage / application should be responsive and give a "journal" feel.
 
