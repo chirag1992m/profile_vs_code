@@ -8,13 +8,9 @@ cover_image: '/blog_images/website-refresh/plant_lifecycle.webp'
 cover_image_prompt: 'A high-definition depiction of a natural lifecycle in a forest setting, suitable for a blog cover image, with a wide aspect ratio. The image illustrates the journey from seed to mature tree, featuring a progression from left to right: a small seed sprouting in rich, dark soil, a young sapling with tender leaves, a tree in full bloom with colorful flowers, and finally, an ancient tree with a thick trunk and sprawling branches, covered in moss and surrounded by fallen leaves. The lush, green forest and soft sunlight filtering through the leaves create a tranquil and detailed atmosphere.'
 ---
 
-It's been more than 11 years since I last wrote a [blogpost](https://digital-madness.in/blog/2013/fast-io-in-c/). During my college days,
-I loved taking complex concepts and presenting them in an easy-to-digest format. I used to teach computer subjects to my friends just the
-night before their exam. Despite finding it easy to explain concepts on the fly, I've always struggled with putting my thoughts to written words.
+It's been more than 11 years since I last wrote a [blogpost](https://digital-madness.in/blog/2013/fast-io-in-c/). During my college days, I loved taking complex concepts and presenting them in an easy-to-digest format. I used to teach computer subjects to my friends just the night before their exam. Despite finding it easy to explain concepts on the fly, I've always struggled with putting my thoughts to written words.
 
-As my career has progressed, I've felt the need to rekindle this passion and work on distilling and writing the things I read, learn, build and
-think about. My goal is not to teach you something specific, but to embark on a journey of learning and self-discovery. If you find something valuable here,
-that would be a wonderful bonus. As [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman) said,
+As my career has progressed, I've felt the need to rekindle this passion and work on distilling and writing the things I read, learn, build and think about. My goal is not to teach you something specific, but to embark on a journey of learning and self-discovery. If you find something valuable here, that would be a wonderful bonus. As [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman) said,
 
 > What I cannot create, I do not understand.
 
@@ -26,9 +22,9 @@ This led me to search for better programming languages, frameworks, templates, a
 
 My goal were simple and limited to:
 
--   Ensure the website could be hosted on a simple [cPanel-based](https://en.wikipedia.org/wiki/CPanel) server.
+-   Ensure the website could be hosted on a simple [Apache-base](https://httpd.apache.org/) server and managed via [cPanel](https://en.wikipedia.org/wiki/CPanel)
 -   Writing new blog posts as easy as writing in [markdown](https://en.wikipedia.org/wiki/Markdown), keeping them clean, intutive and easy to read and write.
--   The pages should be responsive and give a "journal" feel.
+-   The webpage / application should be responsive and give a "journal" feel.
 
 # The new technical stack
 
@@ -36,7 +32,7 @@ The code and content for this website are available on my [GitHub](https://githu
 
 ### Web Frameworks
 
-Reading up about the modern web development, a few front-end frameworks stand out from the rest by a big margin as you can see from this usage graph from [statista](https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/). All of these frameworks are not mutually exclusive and can be used with one another depending upon what you're building.
+Reading up about the modern web development, a few front-end frameworks stand out from the rest by a big margin as you can see from this usage graph from [statista](https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/). All of these frameworks/libraries/SDKs are not mutually exclusive and can be used with one another depending upon what you're building.
 
 ![image](/blog_images/website-refresh/web_frameworks_usage.png)
 
@@ -55,11 +51,11 @@ Let's look at the top-10 frameworks and what they do in a simple terms:
 
 ### Choosing the `right` framework
 
-The two most used and important framework `Node.js` and `React` are probably the best choice for making the website. They provide a complete solution to build a profile and blogging website with their [intensive ecosystem](https://github.com/enaqx/awesome-react). React also supports markdown rendering with the [React-Markdown](https://github.com/remarkjs/react-markdown) library. Using `react` significantly changes how you interact with your [HTML DOM](https://www.w3schools.com/whatis/whatis_htmldom.asp), making `jQuery` unnecessary.
+The two most used and important framework `Node.js` and `React` are probably the best choice for making the website. They provide a complete solution to build a profile and blogging website with their [intensive ecosystem](https://github.com/enaqx/awesome-react). React also supports markdown rendering with the [React-Markdown](https://github.com/remarkjs/react-markdown) library. Using `react` significantly changes how you interact with your [HTML DOM](https://www.w3schools.com/whatis/whatis_htmldom.asp), making `jQuery` slightly unnecessary. Although, a few places you would, jQuery can make that easier.
 
-Given the requirements for hosting the application on a cPanel based server, its beneficial to create a static website. Dynamic websites tend to add extra load on the server and increase server costs. Additionally, maintaining a static website eliminates the need for a database and any complex interactions, making it easier to manage as the blog grows. `Next.js` natively supports exporting the website as a static website and can easily be [hosted on cPanel](https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6). If one needs special features like user-login, comments, likes for your website, it'll be easier to write your blog on specialized platform like [Medium](https://medium.com/) or [Substack](https://substack.com/), which offer advance editing capabilities and also help you monetize your content.
+Given the requirements for hosting the application on an Apache based server, its beneficial to create a static website. Dynamic websites tend to add extra load on the server and increase server costs. Additionally, maintaining a static website eliminates the need for a database and any complex interactions, making it easier to manage as the blog grows. `Next.js` natively supports exporting the website as a static website and can easily be [hosted on cPanel](https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6). If one needs special features like user-login, comments, likes for your website, it'll be easier to write your blog on specialized platform like [Medium](https://medium.com/) or [Substack](https://substack.com/), which offer advance editing capabilities and also help you monetize your content.
 
-Other frameworks aren't required because they often add unnecessary complexity or overlap in functionality. `jQuery`, for instance, simplifies DOM manipulation and event handling, but modern JavaScript and CSS have largely obviated the need for it. `Angular` is powerful but can be overkill for simpler applications, introducing a steeper learning curve and additional overhead. `Express`, while excellent for server-side applications, is unnecessary if a static site architecture is chosen. `ASP.NET` and `ASP.NET Core` are robust frameworks but are tied to the `.NET` ecosystem, which may not align with a JavaScript-focused stack. `WordPress` is a versatile CMS but can be heavy and less flexible for custom development needs. `Vue.js`, though flexible and easy to integrate, would introduce an additional layer of complexity without significant benefits over the chosen stack. Therefore, sticking to a streamlined set of technologies (`Node.js`, `React`, and `Next.js`) avoids redundancy and maintains a clean, efficient development process.
+Other frameworks aren't required because they often add unnecessary complexity or overlap in functionality. `jQuery`, for instance, simplifies DOM manipulation and event handling, but modern JavaScript and CSS have largely obviated the need for it. `Angular` is powerful but can be overkill for simpler applications, introducing a steeper learning curve and additional overhead. `Express`, while excellent for server-side applications, is unnecessary if a static site architecture is chosen. `ASP.NET` and `ASP.NET Core` are robust frameworks but are tied to the `.NET` ecosystem, which may not align with a JavaScript-focused stack. `WordPress` is a versatile content-management-system (CMS) but can be heavy and less flexible for **custom** development needs. `Vue.js`, though flexible and easy to integrate, would introduce an additional layer of complexity without significant benefits over the chosen stack. Therefore, sticking to a streamlined set of technologies (`Node.js`, `React`, and `Next.js`) avoids redundancy and maintains a clean, efficient development process.
 
 ## Wrapping Up
 
