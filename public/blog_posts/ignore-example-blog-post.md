@@ -86,6 +86,10 @@ You should probably combine it with
   👆 Use the toggle above to add the plugin.
 </blockquote>
 
+Or create a footnote[^1]
+
+[^1]: The big note
+
 ## Components
 
 You can pass components to change things:
@@ -132,11 +136,9 @@ Or like this:
 L = \frac{1}{2} \rho v^2 S C_L
 ```
 
+---
+
 ## More info?
 
 Much more info is available in the
-[readme on GitHub](https://github.com/remarkjs/react-markdown)!
-
----
-
 [readme on GitHub](https://github.com/remarkjs/react-markdown)!
