@@ -10,7 +10,13 @@ cover_image_prompt: 'Cited from https://iibawards-prod.s3.amazonaws.com/projects
 
 # Introduction
 
-# Large Language Models
+# Exploration on Scientific Publications
+
+Kaggle Notebook: https://www.kaggle.com/code/chirag1992m/arxiv-eda-20240625
+
+# Selected Topics
+
+## Large Language Models
 
 Have you heard of ChatGPT? If not, it's time to catch up with one of the fastest-growing tech products. Launched in November 2022, ChatGPT [amassed one million users in just five days](https://explodingtopics.com/blog/chatgpt-users). The name ChatGPT combines "chat" and "GPT," which stands for Generative Pretrained Transformer, indicating that you are interacting with a sophisticated machine learning model. While we will delve deeper into the concepts of **GPT** in another technical blog, for now, we will refer to this sophisticated and VERY _LARGE_ machine learning _model_ to imitate human _lanaguage_, commonly known as a **LLM**.
 
