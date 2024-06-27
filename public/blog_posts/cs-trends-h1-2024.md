@@ -5,7 +5,7 @@ subtitle: 'From the lens of scientific publications'
 category: 'Yearly Trends'
 date: '2024-06-30'
 cover_image: '/blog_images/cs-trends/cover_image.png'
-cover_image_prompt: 'Cited from https://iibawards-prod.s3.amazonaws.com/projects/images/000/002/333/large.png?1505504208'
+cover_image_prompt: 'Cited from https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science'
 ---
 
 # Introduction
