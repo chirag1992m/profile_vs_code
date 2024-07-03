@@ -1,6 +1,6 @@
 # Personal Journal
 
-This is the code for the personal profile/website deployed on the domain [Digital-Madness](https://digital-madness.in). The design itself is inspired from [Brian Lovin's](https://brianlovin.com/) website. Brian lovin has added a lot more features to his website, so, feel free to look at his website for advanced features. If you like the simplicity of my deployment, which majorly maintains a `static website`.
+This is the code for the personal profile/website deployed on the domain [Digital-Madness](https://digital-madness.in). The design itself is inspired from [Brian Lovin's](https://brianlovin.com/) website. If you like the simplicity of my deployment, which majorly maintains a `static website` you can use the code here. But, Brian lovin has added a lot more features to his website, so, feel free to look at his repository for advanced features.
 
 ## Deployment
 
@@ -23,4 +23,4 @@ This is the code for the personal profile/website deployed on the domain [Digita
 
 # Use for your own website
 
-Please fork the website and make it your own. Don't forget to add a star.
+Please fork the website and make it your own after removing all the blogposts or other personal elements here. Don't forget to add a star.
