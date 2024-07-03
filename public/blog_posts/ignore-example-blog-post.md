@@ -4,7 +4,7 @@ title: 'Example Blogpost'
 subtitle: 'Example blog, showing markdown powers'
 category: 'Ignore'
 date: '2024-05-15'
-cover_image: '/blog_images/website-refresh/plant_lifecycle.webp'
+cover_image: '/blog_images/ignore-example-blog-post/plant_lifecycle.webp'
 cover_image_prompt: 'Some prompt for the cover image'
 ---
 
@@ -134,6 +134,12 @@ Or like this:
 
 ```math
 L = \frac{1}{2} \rho v^2 S C_L
+```
+
+## React Graphs by Plotly
+
+```plotly
+/blog_images/ignore-example-blog-post/plot_1.json
 ```
 
 ---

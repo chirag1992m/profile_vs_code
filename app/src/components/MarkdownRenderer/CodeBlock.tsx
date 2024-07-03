@@ -1,4 +1,5 @@
 import SyntaxHighlighter from 'react-syntax-highlighter'
+import PlotlyBlock from './PlotlyBlock'
 
 export function CodeBlock({
     text,
@@ -9,15 +10,19 @@ export function CodeBlock({
     language: string
     [key: string]: any
 }) {
-    return (
-        <SyntaxHighlighter
-            showLineNumbers={true}
-            useInlineStyles={false}
-            language={language}
-            wrapLongLines
-            {...rest}
-        >
-            {text}
-        </SyntaxHighlighter>
-    )
+    if (language === 'plotly') {
+        return <PlotlyBlock src={text} />
+    } else {
+        return (
+            <SyntaxHighlighter
+                showLineNumbers={true}
+                useInlineStyles={false}
+                language={language}
+                wrapLongLines
+                {...rest}
+            >
+                {text}
+            </SyntaxHighlighter>
+        )
+    }
 }
