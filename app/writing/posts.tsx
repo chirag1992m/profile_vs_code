@@ -15,9 +15,14 @@ export interface postMetadata {
 }
 
 export const getAllPostsMetadata = (): postMetadata[] => {
+    const inDevEnvironment = !!process && process.env.NODE_ENV === 'development'
+
     const markdownPosts = fs
         .readdirSync(BlogPostFolder)
-        .filter((file) => file.endsWith('.md') && !file.startsWith('ignore-'))
+        .filter((file) => file.endsWith('.md'))
+        .filter((file) =>
+            inDevEnvironment ? true : !file.startsWith('ignore-')
+        )
 
     const postsMetadata = markdownPosts.map((filename) => {
         const filePath = `${BlogPostFolder}/${filename}`

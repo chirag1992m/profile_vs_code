@@ -1,10 +1,10 @@
 ---
-slug: 'example-blogpost'
+slug: 'ignore-example-blog-post'
 title: 'Example Blogpost'
 subtitle: 'Example blog, showing markdown powers'
 category: 'Ignore'
 date: '2024-05-15'
-cover_image: '/blog_images/website-refresh/plant_lifecycle.webp'
+cover_image: '/blog_images/ignore-example-blog-post/plant_lifecycle.webp'
 cover_image_prompt: 'Some prompt for the cover image'
 ---
 
@@ -86,6 +86,10 @@ You should probably combine it with
   👆 Use the toggle above to add the plugin.
 </blockquote>
 
+Or create a footnote[^1]
+
+[^1]: The big note
+
 ## Components
 
 You can pass components to change things:
@@ -132,11 +136,15 @@ Or like this:
 L = \frac{1}{2} \rho v^2 S C_L
 ```
 
-## More info?
+## React Graphs by Plotly
 
-Much more info is available in the
-[readme on GitHub](https://github.com/remarkjs/react-markdown)!
+```plotly
+/blog_images/ignore-example-blog-post/plot_1.json
+```
 
 ---
 
+## More info?
+
+Much more info is available in the
 [readme on GitHub](https://github.com/remarkjs/react-markdown)!
