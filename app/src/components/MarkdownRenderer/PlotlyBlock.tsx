@@ -1,6 +1,15 @@
+import dynamic from 'next/dynamic'
 import type { Config, Layout, PlotData } from 'plotly.js'
 import React, { useEffect, useState } from 'react'
-import Plot from 'react-plotly.js'
+
+// To handle the issue mentioned here: https://github.com/plotly/react-plotly.js/issues/272
+const Plot = dynamic(
+    async () => {
+        const mod = await import('react-plotly.js')
+        return mod
+    },
+    { ssr: false }
+)
 
 interface PlotlyBlockProps {
     src: string
