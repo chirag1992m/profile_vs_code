@@ -1,5 +1,5 @@
 ---
-slug: 'example-blogpost'
+slug: 'ignore-example-blog-post'
 title: 'Example Blogpost'
 subtitle: 'Example blog, showing markdown powers'
 category: 'Ignore'
