@@ -7,6 +7,7 @@ import SideBar from './src/components/SideBar'
 import { ContextProviders } from './src/contexts'
 
 import sections from './global_navigation'
+import SiteAnalytics from './src/components/Analytics/SiteAnalytics'
 
 export const metadata: Metadata = {
     title: 'Digital Madness',
@@ -38,6 +39,8 @@ export default function RootLayout({
                         <div className="flex flex-1">{children}</div>
                     </ContextProviders>
                 </div>
+
+                <SiteAnalytics />
             </body>
         </html>
     )
