@@ -1,3 +1,4 @@
+// Documentation: https://developers.cloudflare.com/analytics/web-analytics/
 const CloudFlareAnalytics = () => {
     return (
         <div>
