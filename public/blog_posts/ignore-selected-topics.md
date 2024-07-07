@@ -2,7 +2,7 @@
 slug: 'ignore-selected-topics'
 title: 'Selected Topics'
 subtitle: 'Opinion piecen on selected topics'
-category: 'Opinion'
+category: 'Ignore'
 date: '2024-07-30'
 cover_image: '/blog_images/cs-trends-h1-2024/cover_image.png'
 cover_image_prompt: 'Cited from https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science'
