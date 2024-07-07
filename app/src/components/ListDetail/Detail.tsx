@@ -32,7 +32,7 @@ const Container = React.forwardRef<HTMLDivElement, DetailContainerProps>(
 )
 
 const Header: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
-    return <div className="relative w-[675px] h-[425px]" {...props} />
+    return <div className="relative w-[560px] h-[375px]" {...props} />
 }
 
 interface TitleProps {
