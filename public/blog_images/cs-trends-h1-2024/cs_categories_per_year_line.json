@@ -1,0 +1,1315 @@
+{
+    "data": [
+        {
+            "hovertemplate": "CS Categories=Artificial Intelligence\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Artificial Intelligence",
+            "line": { "color": "#636efa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Artificial Intelligence",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                965, 228, 377, 436, 704, 983, 1671, 1009, 1123, 1772, 2458,
+                3830, 4411, 6487, 11340, 14250, 21673, 20039
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computation and Language\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computation and Language",
+            "line": { "color": "#EF553B", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computation and Language",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                637, 724, 132, 77, 103, 199, 292, 491, 725, 1629, 2200, 3436,
+                4879, 6603, 7891, 8804, 13141, 13253
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computational Complexity\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computational Complexity",
+            "line": { "color": "#00cc96", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computational Complexity",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                643, 224, 329, 322, 332, 389, 436, 498, 735, 608, 634, 626, 673,
+                763, 822, 858, 1121, 770
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computational Engineering, Finance, and Science\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computational Engineering, Finance, and Science",
+            "line": { "color": "#ab63fa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computational Engineering, Finance, and Science",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                240, 34, 87, 137, 115, 193, 293, 310, 327, 271, 284, 379, 412,
+                613, 715, 758, 1104, 880
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computational Geometry\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computational Geometry",
+            "line": { "color": "#FFA15A", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computational Geometry",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                244, 82, 133, 156, 168, 219, 292, 290, 407, 409, 411, 468, 508,
+                633, 647, 614, 684, 482
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computer Science and Game Theory\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computer Science and Game Theory",
+            "line": { "color": "#19d3f3", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computer Science and Game Theory",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                151, 102, 153, 179, 237, 377, 390, 485, 630, 685, 623, 653, 772,
+                943, 1099, 1197, 1629, 1239
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computer Vision and Pattern Recognition\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computer Vision and Pattern Recognition",
+            "line": { "color": "#FF6692", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computer Vision and Pattern Recognition",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                184, 63, 127, 250, 286, 462, 707, 1071, 1984, 3311, 4960, 7708,
+                10502, 14356, 16857, 19542, 25216, 18969
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Computers and Society\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computers and Society",
+            "line": { "color": "#B6E880", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Computers and Society",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                211, 74, 100, 100, 98, 177, 408, 493, 663, 815, 852, 1240, 1343,
+                2185, 2304, 2195, 3197, 2473
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Cryptography and Security\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Cryptography and Security",
+            "line": { "color": "#FF97FF", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Cryptography and Security",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                411, 163, 315, 423, 389, 553, 612, 711, 893, 1165, 1323, 2011,
+                2718, 3433, 4012, 4465, 5525, 4340
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Data Structures and Algorithms\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Data Structures and Algorithms",
+            "line": { "color": "#FECB52", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Data Structures and Algorithms",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                550, 275, 434, 464, 607, 764, 964, 1060, 1525, 1446, 1481, 1707,
+                1873, 2183, 2172, 2121, 2693, 1794
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Databases\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Databases",
+            "line": { "color": "#636efa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Databases",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                328, 85, 158, 182, 200, 373, 302, 302, 393, 442, 488, 529, 668,
+                825, 858, 871, 1056, 733
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Digital Libraries\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Digital Libraries",
+            "line": { "color": "#EF553B", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Digital Libraries",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                181, 33, 117, 102, 126, 174, 282, 223, 286, 274, 287, 436, 317,
+                389, 485, 408, 461, 289
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Discrete Mathematics\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Discrete Mathematics",
+            "line": { "color": "#00cc96", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Discrete Mathematics",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                436, 262, 326, 371, 471, 600, 561, 610, 823, 786, 785, 850, 924,
+                967, 1117, 1059, 1438, 999
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Distributed, Parallel, and Cluster Computing\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Distributed, Parallel, and Cluster Computing",
+            "line": { "color": "#ab63fa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Distributed, Parallel, and Cluster Computing",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                484, 123, 221, 312, 373, 451, 602, 651, 957, 1108, 1200, 1484,
+                1877, 2303, 2439, 2304, 2756, 2040
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=General Literature\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "General Literature",
+            "line": { "color": "#FFA15A", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "General Literature",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                30, 11, 13, 3, 5, 11, 11, 3, 5, 6, 9, 8, 13, 14, 19, 32, 15, 6
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Graphics\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Graphics",
+            "line": { "color": "#19d3f3", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Graphics",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                57, 21, 29, 41, 38, 46, 82, 81, 129, 150, 231, 330, 458, 652,
+                727, 927, 1252, 929
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Hardware Architecture\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Hardware Architecture",
+            "line": { "color": "#FF6692", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Hardware Architecture",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                83, 7, 20, 37, 140, 53, 64, 97, 95, 145, 185, 236, 232, 471,
+                660, 765, 958, 766
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Human-Computer Interaction\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Human-Computer Interaction",
+            "line": { "color": "#B6E880", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Human-Computer Interaction",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                175, 102, 93, 94, 72, 140, 196, 247, 277, 520, 591, 831, 1313,
+                1804, 2132, 2461, 3655, 3188
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Information Retrieval\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Information Retrieval",
+            "line": { "color": "#FF97FF", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Information Retrieval",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                274, 71, 160, 152, 160, 350, 365, 395, 511, 587, 748, 1042,
+                1513, 1887, 2068, 2122, 2688, 2205
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Information Theory\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Information Theory",
+            "line": { "color": "#FECB52", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Information Theory",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                1066, 649, 942, 976, 1085, 1453, 1952, 2068, 3331, 4987, 3383,
+                3366, 3254, 3578, 3843, 3801, 4195, 3022
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Logic in Computer Science\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Logic in Computer Science",
+            "line": { "color": "#636efa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Logic in Computer Science",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                592, 184, 296, 429, 468, 490, 630, 780, 1235, 867, 967, 953,
+                1150, 1159, 1314, 1202, 2140, 1315
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Machine Learning\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Machine Learning",
+            "line": { "color": "#EF553B", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Machine Learning",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                333, 96, 202, 241, 334, 1113, 1173, 1473, 2202, 3295, 4438,
+                8351, 15899, 23016, 26266, 28925, 35628, 27785
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Mathematical Software\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Mathematical Software",
+            "line": { "color": "#00cc96", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Mathematical Software",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                64, 18, 39, 50, 49, 94, 103, 125, 144, 150, 128, 150, 132, 191,
+                245, 192, 220, 136
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Multiagent Systems\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Multiagent Systems",
+            "line": { "color": "#ab63fa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Multiagent Systems",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                142, 50, 82, 89, 88, 114, 118, 188, 177, 258, 296, 374, 611,
+                839, 969, 1023, 1394, 968
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Multimedia\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Multimedia",
+            "line": { "color": "#FFA15A", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Multimedia",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                45, 37, 52, 91, 83, 97, 120, 146, 196, 274, 306, 375, 457, 631,
+                727, 872, 1218, 814
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Networking and Internet Architecture\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Networking and Internet Architecture",
+            "line": { "color": "#19d3f3", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Networking and Internet Architecture",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                487, 205, 402, 622, 529, 818, 878, 986, 1081, 1824, 1287, 1537,
+                1785, 2011, 2001, 2054, 2206, 1534
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Neural and Evolutionary Computing\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Neural and Evolutionary Computing",
+            "line": { "color": "#FF6692", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Neural and Evolutionary Computing",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                277, 69, 124, 198, 129, 188, 267, 403, 607, 863, 970, 1131,
+                1384, 1662, 1520, 1578, 1756, 1319
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Numerical Analysis\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Numerical Analysis",
+            "line": { "color": "#B6E880", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Numerical Analysis",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                97, 44, 63, 98, 108, 152, 178, 222, 354, 313, 275, 348, 1525,
+                3380, 3938, 4064, 5268, 3661
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Operating Systems\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Operating Systems",
+            "line": { "color": "#FF97FF", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Operating Systems",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                35, 19, 14, 26, 29, 22, 40, 37, 40, 40, 47, 49, 86, 88, 75, 77,
+                110, 77
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Other Computer Science\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Other Computer Science",
+            "line": { "color": "#FECB52", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Other Computer Science",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                138, 192, 94, 170, 113, 186, 150, 157, 137, 151, 105, 119, 121,
+                110, 88, 73, 68, 35
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Performance\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Performance",
+            "line": { "color": "#636efa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Performance",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                106, 39, 90, 69, 82, 102, 112, 126, 169, 223, 207, 244, 365,
+                447, 422, 389, 452, 308
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Programming Languages\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Programming Languages",
+            "line": { "color": "#EF553B", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Programming Languages",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                358, 59, 117, 181, 232, 187, 303, 273, 390, 402, 449, 533, 633,
+                682, 756, 711, 936, 644
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Robotics\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Robotics",
+            "line": { "color": "#00cc96", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Robotics",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                167, 57, 62, 68, 91, 135, 168, 233, 341, 687, 1040, 1625, 2462,
+                3553, 4627, 5103, 7039, 5353
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Software Engineering\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Software Engineering",
+            "line": { "color": "#ab63fa", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Software Engineering",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                264, 111, 157, 214, 239, 353, 428, 660, 538, 548, 707, 952,
+                1083, 1396, 2127, 2039, 2692, 2336
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Sound\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Sound",
+            "line": { "color": "#FFA15A", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Sound",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                19, 5, 15, 25, 25, 27, 48, 63, 122, 264, 363, 739, 1111, 1778,
+                2151, 2631, 2930, 1857
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Symbolic Computation\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Symbolic Computation",
+            "line": { "color": "#19d3f3", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Symbolic Computation",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                112, 67, 72, 92, 85, 76, 118, 135, 115, 140, 141, 155, 175, 197,
+                196, 229, 252, 220
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Formal Languages and Automata Theory\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Formal Languages and Automata Theory",
+            "line": { "color": "#FF6692", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Formal Languages and Automata Theory",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018,
+                2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                108, 145, 152, 185, 208, 270, 345, 269, 288, 281, 392, 413, 423,
+                419, 670, 393
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Social and Information Networks\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Social and Information Networks",
+            "line": { "color": "#B6E880", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Social and Information Networks",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+                2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                77, 381, 634, 797, 981, 1501, 1352, 1334, 1434, 1649, 2166,
+                2004, 1865, 2177, 1498
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Systems and Control\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Systems and Control",
+            "line": { "color": "#FF97FF", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Systems and Control",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+                2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                29, 327, 412, 529, 615, 903, 1217, 1305, 1458, 2213, 3803, 4558,
+                4821, 5784, 4195
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        },
+        {
+            "hovertemplate": "CS Categories=Emerging Technologies\u003cbr\u003eYear=%{x}\u003cbr\u003eCount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Emerging Technologies",
+            "line": { "color": "#FECB52", "dash": "solid" },
+            "marker": { "symbol": "circle" },
+            "mode": "lines",
+            "name": "Emerging Technologies",
+            "orientation": "v",
+            "showlegend": true,
+            "x": [
+                2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020,
+                2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                47, 66, 112, 114, 170, 203, 222, 301, 371, 414, 461, 493, 699,
+                733
+            ],
+            "yaxis": "y",
+            "type": "scatter"
+        }
+    ],
+    "layout": {
+        "template": {
+            "data": {
+                "histogram2dcontour": [
+                    {
+                        "type": "histogram2dcontour",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "type": "choropleth",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" }
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "type": "histogram2d",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "type": "heatmap",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "heatmapgl": [
+                    {
+                        "type": "heatmapgl",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "type": "contourcarpet",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" }
+                    }
+                ],
+                "contour": [
+                    {
+                        "type": "contour",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "surface": [
+                    {
+                        "type": "surface",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "type": "mesh3d",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" }
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "type": "parcoords",
+                        "line": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "type": "scatterpolargl",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "bar": [
+                    {
+                        "error_x": { "color": "#2a3f5f" },
+                        "error_y": { "color": "#2a3f5f" },
+                        "marker": {
+                            "line": { "color": "#E5ECF6", "width": 0.5 },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "type": "scattergeo",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "type": "scatterpolar",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "type": "scattergl",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "type": "scatter3d",
+                        "line": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        },
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "type": "scattermapbox",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "type": "scatterternary",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "type": "scattercarpet",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": { "color": "#EBF0F8" },
+                            "line": { "color": "white" }
+                        },
+                        "header": {
+                            "fill": { "color": "#C8D4E3" },
+                            "line": { "color": "white" }
+                        },
+                        "type": "table"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": { "color": "#E5ECF6", "width": 0.5 },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "pie": [{ "automargin": true, "type": "pie" }]
+            },
+            "layout": {
+                "autotypenumbers": "strict",
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": { "color": "#2a3f5f" },
+                "hovermode": "closest",
+                "hoverlabel": { "align": "left" },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "bgcolor": "#E5ECF6",
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "ternary": {
+                    "bgcolor": "#E5ECF6",
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "coloraxis": { "colorbar": { "outlinewidth": 0, "ticks": "" } },
+                "colorscale": {
+                    "sequential": [
+                        [0.0, "#0d0887"],
+                        [0.1111111111111111, "#46039f"],
+                        [0.2222222222222222, "#7201a8"],
+                        [0.3333333333333333, "#9c179e"],
+                        [0.4444444444444444, "#bd3786"],
+                        [0.5555555555555556, "#d8576b"],
+                        [0.6666666666666666, "#ed7953"],
+                        [0.7777777777777778, "#fb9f3a"],
+                        [0.8888888888888888, "#fdca26"],
+                        [1.0, "#f0f921"]
+                    ],
+                    "sequentialminus": [
+                        [0.0, "#0d0887"],
+                        [0.1111111111111111, "#46039f"],
+                        [0.2222222222222222, "#7201a8"],
+                        [0.3333333333333333, "#9c179e"],
+                        [0.4444444444444444, "#bd3786"],
+                        [0.5555555555555556, "#d8576b"],
+                        [0.6666666666666666, "#ed7953"],
+                        [0.7777777777777778, "#fb9f3a"],
+                        [0.8888888888888888, "#fdca26"],
+                        [1.0, "#f0f921"]
+                    ],
+                    "diverging": [
+                        [0, "#8e0152"],
+                        [0.1, "#c51b7d"],
+                        [0.2, "#de77ae"],
+                        [0.3, "#f1b6da"],
+                        [0.4, "#fde0ef"],
+                        [0.5, "#f7f7f7"],
+                        [0.6, "#e6f5d0"],
+                        [0.7, "#b8e186"],
+                        [0.8, "#7fbc41"],
+                        [0.9, "#4d9221"],
+                        [1, "#276419"]
+                    ]
+                },
+                "xaxis": {
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": { "standoff": 15 },
+                    "zerolinecolor": "white",
+                    "automargin": true,
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": { "standoff": 15 },
+                    "zerolinecolor": "white",
+                    "automargin": true,
+                    "zerolinewidth": 2
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    }
+                },
+                "shapedefaults": { "line": { "color": "#2a3f5f" } },
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "subunitcolor": "white",
+                    "showland": true,
+                    "showlakes": true,
+                    "lakecolor": "white"
+                },
+                "title": { "x": 0.05 },
+                "mapbox": { "style": "light" }
+            }
+        },
+        "xaxis": {
+            "anchor": "y",
+            "domain": [0.0, 1.0],
+            "title": { "text": "Year" }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [0.0, 1.0],
+            "title": { "text": "Count" }
+        },
+        "legend": {
+            "title": { "text": "CS Categories" },
+            "tracegroupgap": 0,
+            "orientation": "h",
+            "yanchor": "bottom",
+            "y": 1.1,
+            "xanchor": "right",
+            "x": 1
+        },
+        "title": {
+            "text": "Count of CS Categories Over Years",
+            "y": 0.55,
+            "x": 0.5,
+            "xanchor": "center",
+            "yanchor": "top"
+        },
+        "width": 700,
+        "height": 800
+    }
+}
