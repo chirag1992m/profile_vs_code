@@ -1,0 +1,673 @@
+{
+    "data": [
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Computer Science\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Computer Science",
+            "marker": { "color": "#636efa", "pattern": { "shape": "" } },
+            "name": "Computer Science",
+            "offsetgroup": "Computer Science",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                4.9701863937274045, 4.344324426757627, 1.9443097467268455,
+                8.640815778880988, 9.088066294023376, 13.754856434070383,
+                13.976483384283252, 13.187375171908583, 7.761202744124946,
+                15.905167240599352, 19.18239628545473, 23.324469746317,
+                26.704606345041665, 30.311610395175855, 33.68880550415948,
+                35.27552041523253, 37.11072549772826, 40.59576226636402
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Mathematics\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Mathematics",
+            "marker": { "color": "#EF553B", "pattern": { "shape": "" } },
+            "name": "Mathematics",
+            "offsetgroup": "Mathematics",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                31.371425888539367, 20.42258859200303, 9.09023089261069,
+                25.12634733217049, 25.923464800844307, 29.90128240612603,
+                27.30696022610229, 27.566189123629048, 16.504159976645745,
+                24.75696335755237, 24.308065004542243, 23.09157751028384,
+                21.287115906949243, 19.33484342955095, 19.216791024375645,
+                19.007939562554295, 19.249908380026405, 18.322895490912845
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Physics\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Physics",
+            "marker": { "color": "#00cc96", "pattern": { "shape": "" } },
+            "name": "Physics",
+            "offsetgroup": "Physics",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                61.49537536973567, 72.29675952245594, 87.31862434257152,
+                62.88295540945481, 61.451940741898916, 50.98051275742945,
+                53.35157093300155, 54.4012052605754, 72.51817252955773,
+                54.463749919218586, 50.52286262238821, 45.13023226762084,
+                40.95452781729828, 37.48171049006704, 35.884656666254216,
+                34.942047791328065, 33.39029225667722, 30.993858841475458
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Quantitative Biology\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Quantitative Biology",
+            "marker": { "color": "#ab63fa", "pattern": { "shape": "" } },
+            "name": "Quantitative Biology",
+            "offsetgroup": "Quantitative Biology",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                1.595849570402366, 0.9408754974417283, 0.9458888184316212,
+                1.228811664206807, 1.2078333268185903, 1.6299166589783805,
+                1.9091800496040738, 1.5508054651379761, 1.2009925558312655,
+                1.4374474920834217, 1.4252548702937315, 1.30098421508178,
+                1.2098815616858523, 1.3786770332731335, 1.1700079707872089,
+                1.0537514982900251, 1.0435846149091086, 0.9830107781738182
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Statistics\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Statistics",
+            "marker": { "color": "#FFA15A", "pattern": { "shape": "" } },
+            "name": "Statistics",
+            "offsetgroup": "Statistics",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [
+                2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+                2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                0.5671627775951923, 1.046048891415577, 0.41621594738085466,
+                1.496041862337314, 1.7755931673376852, 3.0937663376080207,
+                2.8163907680391556, 2.6627689203104374, 1.6280834914611007,
+                2.8887432259017514, 3.7968103361259713, 5.08972151085492,
+                6.146966981393544, 5.963451590192538, 4.467669393615888,
+                3.9903999472162046, 3.775625996229231, 3.8548608135743607
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Quantitative Finance\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Quantitative Finance",
+            "marker": { "color": "#19d3f3", "pattern": { "shape": "" } },
+            "name": "Quantitative Finance",
+            "offsetgroup": "Quantitative Finance",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [
+                2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+                2018, 2019, 2020, 2021, 2022, 2023, 2024
+            ],
+            "xaxis": "x",
+            "y": [
+                0.9494030699260944, 0.2847302522784637, 0.6250279529495952,
+                0.5531016690771215, 0.6396654057877418, 0.6394146389696854,
+                0.6316560584385517, 0.3873887023792147, 0.5479287646445157,
+                0.5258907842939335, 0.5670613639811188, 0.5642911254411411,
+                0.6501576418010958, 0.7285932567715722, 0.6490757337497388,
+                0.6457552355847562, 0.6399445746009462
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Economics\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Economics",
+            "marker": { "color": "#FF6692", "pattern": { "shape": "" } },
+            "name": "Economics",
+            "offsetgroup": "Economics",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "xaxis": "x",
+            "y": [
+                0.03785202382154033, 0.17846148355031274, 0.24463701705437815,
+                0.3783403226300162, 0.5044328511534621, 0.49649757524439997,
+                0.5362528093112386, 0.5864639263911805
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        },
+        {
+            "alignmentgroup": "True",
+            "hovertemplate": "category=Electrical Engineering and Systems Science\u003cbr\u003eYear=%{x}\u003cbr\u003eParticipation Percentage=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+            "legendgroup": "Electrical Engineering and Systems Science",
+            "marker": { "color": "#B6E880", "pattern": { "shape": "" } },
+            "name": "Electrical Engineering and Systems Science",
+            "offsetgroup": "Electrical Engineering and Systems Science",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "x": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "xaxis": "x",
+            "y": [
+                0.20086807307964066, 1.3174919023101839, 2.8879732451358993,
+                4.501209097309376, 4.339043332882519, 4.58476747638475,
+                4.247855209533776, 4.023203308507373
+            ],
+            "yaxis": "y",
+            "type": "bar"
+        }
+    ],
+    "layout": {
+        "template": {
+            "data": {
+                "histogram2dcontour": [
+                    {
+                        "type": "histogram2dcontour",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "type": "choropleth",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" }
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "type": "histogram2d",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "type": "heatmap",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "heatmapgl": [
+                    {
+                        "type": "heatmapgl",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "type": "contourcarpet",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" }
+                    }
+                ],
+                "contour": [
+                    {
+                        "type": "contour",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "surface": [
+                    {
+                        "type": "surface",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" },
+                        "colorscale": [
+                            [0.0, "#0d0887"],
+                            [0.1111111111111111, "#46039f"],
+                            [0.2222222222222222, "#7201a8"],
+                            [0.3333333333333333, "#9c179e"],
+                            [0.4444444444444444, "#bd3786"],
+                            [0.5555555555555556, "#d8576b"],
+                            [0.6666666666666666, "#ed7953"],
+                            [0.7777777777777778, "#fb9f3a"],
+                            [0.8888888888888888, "#fdca26"],
+                            [1.0, "#f0f921"]
+                        ]
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "type": "mesh3d",
+                        "colorbar": { "outlinewidth": 0, "ticks": "" }
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "type": "parcoords",
+                        "line": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "type": "scatterpolargl",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "bar": [
+                    {
+                        "error_x": { "color": "#2a3f5f" },
+                        "error_y": { "color": "#2a3f5f" },
+                        "marker": {
+                            "line": { "color": "#E5ECF6", "width": 0.5 },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "type": "scattergeo",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "type": "scatterpolar",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "type": "scattergl",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "type": "scatter3d",
+                        "line": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        },
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "type": "scattermapbox",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "type": "scatterternary",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "type": "scattercarpet",
+                        "marker": {
+                            "colorbar": { "outlinewidth": 0, "ticks": "" }
+                        }
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": { "color": "#EBF0F8" },
+                            "line": { "color": "white" }
+                        },
+                        "header": {
+                            "fill": { "color": "#C8D4E3" },
+                            "line": { "color": "white" }
+                        },
+                        "type": "table"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": { "color": "#E5ECF6", "width": 0.5 },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "pie": [{ "automargin": true, "type": "pie" }]
+            },
+            "layout": {
+                "autotypenumbers": "strict",
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": { "color": "#2a3f5f" },
+                "hovermode": "closest",
+                "hoverlabel": { "align": "left" },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "bgcolor": "#E5ECF6",
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "ternary": {
+                    "bgcolor": "#E5ECF6",
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "coloraxis": { "colorbar": { "outlinewidth": 0, "ticks": "" } },
+                "colorscale": {
+                    "sequential": [
+                        [0.0, "#0d0887"],
+                        [0.1111111111111111, "#46039f"],
+                        [0.2222222222222222, "#7201a8"],
+                        [0.3333333333333333, "#9c179e"],
+                        [0.4444444444444444, "#bd3786"],
+                        [0.5555555555555556, "#d8576b"],
+                        [0.6666666666666666, "#ed7953"],
+                        [0.7777777777777778, "#fb9f3a"],
+                        [0.8888888888888888, "#fdca26"],
+                        [1.0, "#f0f921"]
+                    ],
+                    "sequentialminus": [
+                        [0.0, "#0d0887"],
+                        [0.1111111111111111, "#46039f"],
+                        [0.2222222222222222, "#7201a8"],
+                        [0.3333333333333333, "#9c179e"],
+                        [0.4444444444444444, "#bd3786"],
+                        [0.5555555555555556, "#d8576b"],
+                        [0.6666666666666666, "#ed7953"],
+                        [0.7777777777777778, "#fb9f3a"],
+                        [0.8888888888888888, "#fdca26"],
+                        [1.0, "#f0f921"]
+                    ],
+                    "diverging": [
+                        [0, "#8e0152"],
+                        [0.1, "#c51b7d"],
+                        [0.2, "#de77ae"],
+                        [0.3, "#f1b6da"],
+                        [0.4, "#fde0ef"],
+                        [0.5, "#f7f7f7"],
+                        [0.6, "#e6f5d0"],
+                        [0.7, "#b8e186"],
+                        [0.8, "#7fbc41"],
+                        [0.9, "#4d9221"],
+                        [1, "#276419"]
+                    ]
+                },
+                "xaxis": {
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": { "standoff": 15 },
+                    "zerolinecolor": "white",
+                    "automargin": true,
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": { "standoff": 15 },
+                    "zerolinecolor": "white",
+                    "automargin": true,
+                    "zerolinewidth": 2
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    }
+                },
+                "shapedefaults": { "line": { "color": "#2a3f5f" } },
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "subunitcolor": "white",
+                    "showland": true,
+                    "showlakes": true,
+                    "lakecolor": "white"
+                },
+                "title": { "x": 0.05 },
+                "mapbox": { "style": "light" }
+            }
+        },
+        "xaxis": {
+            "anchor": "y",
+            "domain": [0.0, 1.0],
+            "title": { "text": "Year" }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [0.0, 1.0],
+            "title": { "text": "Participation Percentage" }
+        },
+        "legend": {
+            "title": { "text": "category" },
+            "tracegroupgap": 0,
+            "orientation": "h",
+            "yanchor": "bottom",
+            "y": 1.1,
+            "xanchor": "right",
+            "x": 1
+        },
+        "title": {
+            "text": "Stacked Percentage of Research Papers by Year and Category",
+            "y": 0.82,
+            "x": 0.5,
+            "xanchor": "center",
+            "yanchor": "top"
+        },
+        "barmode": "stack",
+        "width": 550,
+        "height": 600
+    }
+}
