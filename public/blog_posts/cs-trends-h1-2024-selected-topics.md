@@ -1,11 +1,11 @@
 ---
-slug: 'ignore-selected-topics'
-title: 'Selected Topics'
-subtitle: 'Opinion piecen on selected topics'
-category: 'Ignore'
-date: '2024-07-30'
-cover_image: '/blog_images/cs-trends-h1-2024/cover_image.png'
-cover_image_prompt: 'Cited from https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science'
+slug: 'cs-trends-h1-2024-selected-topics'
+title: 'CS Trends H1 2024: Selected Topics'
+subtitle: 'Opinion piece on selected topics'
+category: 'CS Yearly Trends'
+date: '2024-07-20'
+cover_image: '/blog_images/cs-trends-h1-2024/wordcloud.png'
+cover_image_prompt: 'Wordcloud of most used words in AI research papers'
 ---
 
 # Selected Topics

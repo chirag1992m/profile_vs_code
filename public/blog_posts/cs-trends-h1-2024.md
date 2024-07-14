@@ -2,7 +2,7 @@
 slug: 'cs-trends-h1-2024'
 title: 'CS Trends 2024'
 subtitle: 'From the lens of scientific publications'
-category: 'Yearly Trends'
+category: 'CS Yearly Trends'
 date: '2024-07-07'
 cover_image: '/blog_images/cs-trends-h1-2024/cover_image.png'
 cover_image_prompt: 'Cited from https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science'

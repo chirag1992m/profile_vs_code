@@ -119,8 +119,10 @@ export function AboutMe(): React.ReactElement {
                                     slides.
                                 </p>
                                 <p>
-                                    Currently, I&apos;m also building two
-                                    exciting projects: &nbsp;
+                                    On the weekends and evenings post-work, I
+                                    work on some personal projects. I&apos;m
+                                    currently working on building two exciting
+                                    projects: &nbsp;
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -138,14 +140,14 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         NestAura
                                     </a>
-                                    . ActionSync helps individuals and
+                                    . <em>ActionSync</em> helps individuals and
                                     small-medium businesses use generative AI by
                                     automating software tasks through language
-                                    and an intuitive drag-and-drop UI. NestAura,
-                                    on the other hand, allows users to keep
-                                    track of their healthcare documents and
-                                    vitals and receive daily personalized health
-                                    nudges.
+                                    and an intuitive drag-and-drop UI.{' '}
+                                    <em>NestAura</em>, on the other hand, allows
+                                    users to keep track of their healthcare
+                                    documents and vitals and receive daily
+                                    personalized health nudges.
                                 </p>
                             </div>
                         </SectionContent>
