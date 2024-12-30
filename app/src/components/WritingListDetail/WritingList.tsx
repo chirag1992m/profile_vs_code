@@ -9,7 +9,7 @@ import { type postMetadata } from '../../../writing/posts'
 import { WritingListItem } from './WritingListItem'
 
 interface WritingListProps {
-    title: string,
+    title: string
     categorizedPosts: Record<string, postMetadata[]>
 }
 
@@ -22,10 +22,7 @@ export const WritingList = ({
 
     return (
         <ListContainer data-cy="posts-list" onRef={setScrollContainerRef}>
-            <TitleBar
-                scrollContainerRef={scrollContainerRef}
-                title={title}
-            />
+            <TitleBar scrollContainerRef={scrollContainerRef} title={title} />
 
             <div className="lg:space-y-1 lg:p-2">
                 {categorizedPosts &&
