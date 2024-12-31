@@ -41,8 +41,10 @@ export const WritingList = ({
                                         {category}
                                     </h4>
                                     {posts.map((post, i) => {
-                                        const active_slug = currentPathname.split("/").pop()
-                                        const active = active_slug === post.slug
+                                        const activeSlug = currentPathname
+                                            .split('/')
+                                            .pop()
+                                        const active = activeSlug === post.slug
 
                                         return (
                                             <WritingListItem

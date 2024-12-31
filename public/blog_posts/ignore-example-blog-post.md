@@ -2,7 +2,7 @@
 slug: 'ignore-example-blog-post'
 title: 'Example Blogpost'
 subtitle: 'Example blog, showing markdown powers'
-category: 'Ignore'
+category: 'Ignore (only dev)'
 date: '2024-05-15'
 cover_image: '/blog_images/ignore-example-blog-post/plant_lifecycle.webp'
 cover_image_prompt: 'Some prompt for the cover image'
